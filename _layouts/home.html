@@ -9,41 +9,49 @@ layout: default
   {{ content }}
 
   <div class="post-list">
-    {% for post in site.posts %}
-
-      {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-      <div style="width: 100%;" class="mdl-card mdl-shadow--2dp">
-        <img src="{{post.cover_image}}" alt="{{ post.title | escape }}"/>
-        <div class="mdl-card__title">
-          <h2 class="mdl-card__title-text"><a style="color:black;" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h2>
-        </div>
-        <div class="mdl-card__supporting-text">
-            <p>{{ post.date | date: date_format }}</p>
-            <span class="description">{{ post.short_description | escape }}</span>
-        </div>
-        <div class="mdl-card__actions mdl-card--border">
-          <a href="{{ post.url | relative_url }}" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
-            Read
-          </a>
-        </div>
-        <div class="mdl-card__menu">
-          <button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
-            <i class="material-icons">share</i>
-          </button>
-        </div>
-      </div>
-
-      <div style="padding:10px;"></div>
-
-      <!-- <li>
+      {% for post in paginator.posts %}
         {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
+        <div style="width: 100%;" class="mdl-card mdl-shadow--2dp">
+          <img src="{{post.cover_image}}" alt="{{ post.title | escape }}"/>
+          <div class="mdl-card__title">
+            <h2 class="mdl-card__title-text"><a style="color:black;" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h2>
+          </div>
+          <div class="mdl-card__supporting-text">
+              <p>{{ post.date | date: date_format }}</p>
+              <span class="description">{{ post.short_description | escape }}</span>
+          </div>
+          <div class="mdl-card__actions mdl-card--border">
+            <a href="{{ post.url | relative_url }}" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+              Read
+            </a>
+          </div>
+          <div class="mdl-card__menu">
+            <button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
+              <i class="material-icons">share</i>
+            </button>
+          </div>
+        </div>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-        </h2>
-      </li> -->
-    {% endfor %}
+        <div style="padding:10px;"></div>
+      {% endfor %}    
   </div>
+  <br>
+  <!-- 
+    Showing buttons to move to the next and to the previous list of posts (pager buttons).
+  -->
+  {% if paginator.total_pages > 1 %}
+  <ul class="pager">
+      {% if paginator.previous_page %}
+      <li class="previous">
+          <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
+      </li>
+      {% endif %}
+      {% if paginator.next_page %}
+      <li class="next">
+          <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
+      </li>
+      {% endif %}
+  </ul>
+  {% endif %}
 
 </div>

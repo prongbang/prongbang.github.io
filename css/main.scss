@@ -75,6 +75,29 @@ body {
   font-size: 18px;
 }
 
+ul.pager { text-align: right; list-style: none; }
+ul.pager li {display: inline;border: 1px solid black; padding: 10px; margin: 5px;}
+
+.pagination a, .pagination span {
+  padding: 7px 18px;
+  border: 1px solid #eee;
+  margin-left: -2px;
+  margin-right: -2px;
+  background-color: #ffffff;
+  display: inline-block;
+}
+
+.pagination a {    
+  &:hover {
+      background-color: #f1f1f1;
+      color: #333;
+  }
+}
+
+.pagination {
+  text-align: center;
+}
+
 .logo {
   width: 120px;
   height: 31px;

@@ -21,57 +21,19 @@
     <div class="mdl-cell--hide-phone mdl-cell--hide-tablet mdl-cell mdl-cell--2-col"></div>
     <nav class="mdl-navigation tac-tab-navigation mdl-cell mdl-cell--8-col">
 
-      {% assign nav_items = (site.pages | sort:"site_nav_category_order" %}
-      {% for nav_item in nav_items %}
-      {% if nav_item.is_site_nav_category %}
-      <a class="mdl-navigation__link mdl-js-ripple-effect{% if page.site_nav_category == nav_item.site_nav_category %} mdl-navigation__link--current{% endif %}"
-      href="{{ site.baseurl }}{{ nav_item.url }}">{{ nav_item.title }}<div class="mdl-ripple"></div></a>
-
-      {% endif %}
-      {% endfor %}
+        <!--
+          my_page.autogen is populated by the pagination logic for all pages
+          that are automatically created by the gem. Check for non-existence to exclude pagination pages from site.pages iterators
+        -->
+        {% assign nav_items = (site.pages | sort:"site_nav_category_order" %}        
+        {% for my_page in nav_items %}
+          {% if my_page.title and my_page.autogen == nil %}
+            <!-- <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a> -->
+            <a class="mdl-navigation__link mdl-js-ripple-effect{% if page.site_nav_category == my_page.site_nav_category %} mdl-navigation__link--current{% endif %}"
+            href="{{ site.baseurl }}{{ my_page.url }}">{{ my_page.title | escape }}<div class="mdl-ripple"></div></a>      
+          {% endif %}
+        {% endfor %}
 
     </nav>
   </div>
 </header>
-
-<!-- <header class="mdl-layout__header mdl-layout__header--scroll mdl-color--primary tac-header">
-  <div class="mdl-layout__header-row tac-logo-row mdl-grid">
-    <div class="mdl-cell mdl-cell--2-col mdl-cell--hide-phone mdl-cell--hide-tablet"></div>
-    <div class="header-content mdl-cell mdl-cell--8-col">
-        <a class="tac-site-title" href="{{ site.baseurl }}/">
-          <img src="{{ site.baseurl }}/assets/logo.png"/>
-          <span class="mdl-layout-title tac-title">
-            {{ site.title }}
-          </span>
-        </a>
-    </div>
-  </div>
-  <div class="mdl-layout__header-row scrollable-header-row mdl-layout--large-screen-only mdl-grid mdl-grid--no-spacing">
-      <div class="mdl-cell--hide-phone mdl-cell--hide-tablet mdl-cell mdl-cell--2-col"></div>
-      <nav class="mdl-navigation tac-tab-navigation mdl-cell mdl-cell--8-col">
-          {% assign nav_items = (site.pages | sort:"site_nav_category_order" %}
-          {% for nav_item in nav_items %}
-            {% if nav_item.is_site_nav_category %}
-            <a class="mdl-navigation__link mdl-js-ripple-effect{% if page.site_nav_category == nav_item.site_nav_category %} mdl-navigation__link--current{% endif %}"
-          href="{{ site.baseurl }}{{ nav_item.url }}">{{ nav_item.title }}<div class="mdl-ripple"></div></a>
-            {% endif %}
-          {% endfor %}
-     
-        </nav>
-  </div>
-  <div class="wrapper">
-    {% if page_paths %}
-      <nav class="site-nav">
-        <div class="trigger">
-          {% for path in page_paths %}
-            {% assign my_page = site.pages | where: "path", path | first %}
-            {% if my_page.title %}
-            <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
-            {% endif %}
-          {% endfor %}
-        </div>
-      </nav>
-    {% endif %}
-  </div>
-</header> -->
-  
