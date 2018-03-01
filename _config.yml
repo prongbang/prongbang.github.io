@@ -17,25 +17,25 @@ theme: minima
 plugins:
   # - jekyll-feed
   - octopress-autoprefixer
-  - jekyll-paginate-v2
-  # - jekyll-paginate
+  # - jekyll-paginate-v2
+  - jekyll-paginate
 
 # Produces a cleaner folder structure when using categories
-permalink: /:categories/:year/:month/:title.html
+# permalink: /:categories/:year/:month/:title.html
 
-pagination:
-  enabled: true
-  per_page: 15
-  permalink: '/blog/page/:num/'
-  title: ':title - page :num of :max'
-  limit: 0
-  sort_field: 'date'
-  sort_reverse: true
+# pagination:
+#   enabled: true
+#   per_page: 15
+#   permalink: '/blog/page/:num/'
+#   title: ':title - page :num of :max'
+#   limit: 0
+#   sort_field: 'date'
+#   sort_reverse: true
 
 # Explicitly turn off the old code
 # Pagination Settings
-# paginate: 1
-# paginate_path: "/blog/page/:num/"
+paginate: 2
+paginate_path: "/blog/page/:num/"
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
