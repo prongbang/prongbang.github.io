@@ -15,9 +15,10 @@ github_username:  prongbang
 markdown: kramdown
 theme: minima
 plugins:
-  - jekyll-feed
+  # - jekyll-feed
   - octopress-autoprefixer
   - jekyll-paginate-v2
+  - jekyll-seo-tag
   # - jekyll-paginate
 
 # Produces a cleaner folder structure when using categories
