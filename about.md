@@ -1,6 +1,7 @@
 ---
 layout: page
 title: About
+page: about
 permalink: /about
 site_nav_category: about
 is_site_nav_category: true
