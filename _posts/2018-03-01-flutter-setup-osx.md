@@ -12,6 +12,16 @@ author: "end try"
 - Disk Space: 700 MB
 - Tools: bash, mkdir, rm, git, curl, unzip, which
 
+#### ติดตั้ง [Xcode](https://itunes.apple.com/us/app/xcode/id497799835)
+
+#### ติดตั้ง [Android Studio](https://developer.android.com/studio/index.html)
+
+#### ติดตั้ง [IntelliJ IDEA Community Edition](https://www.jetbrains.com/idea/download)
+
+##### จากนั้นติดตั้ง plugins ชื่อ Flutter เพื่อใช้พัฒนาแอพพลิเคชั่น
+
+#### ติดตั้ง [VS Code](https://code.visualstudio.com)
+
 #### ต่อไปให้เราทำการ Clone Flutter มาลงที่เครื่องเราโดยใช้คำสั่งตามนี้
 
 {% highlight bash %}
@@ -19,7 +29,7 @@ $ git clone -b beta https://github.com/flutter/flutter.git
 $ export PATH=`pwd`/flutter/bin:$PATH
 {% endhighlight %}
 
-#### จากนั้นให้ใช้คำสั่งตามนนี้เพื่อติดตั้ง Flutter
+#### จากนั้นให้ใช้คำสั่งตามนี้เพื่อติดตั้ง Flutter
 {% highlight bash %}
 $ flutter doctor
 {% endhighlight %}
