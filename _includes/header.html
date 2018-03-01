@@ -25,13 +25,19 @@
           my_page.autogen is populated by the pagination logic for all pages
           that are automatically created by the gem. Check for non-existence to exclude pagination pages from site.pages iterators
         -->
-        {% assign nav_items = (site.pages | sort:"site_nav_category_order" %}   
+        <!-- {% assign nav_items = (site.pages | sort:"site_nav_category_order" %}   
         {% for my_page in nav_items %}
           {% if my_page.title and my_page.autogen == nil and my_page.page == "posts" %}
               <a class="mdl-navigation__link mdl-js-ripple-effect{% if page.site_nav_category == my_page.site_nav_category %} mdl-navigation__link--current{% endif %}"
               href="{{ site.baseurl }}{{ my_page.url }}">{{ my_page.title | escape }}<div class="mdl-ripple"></div></a>      
           {% endif %}
-        {% endfor %}
+        {% endfor %} -->
+
+        <a class="mdl-navigation__link mdl-js-ripple-effect{% if page.site_nav_category == 'post' %} mdl-navigation__link--current{% endif %}"
+              href="{{ site.baseurl }}/">{{ 'Posts' | escape }}<div class="mdl-ripple"></div></a>     
+        
+              <a class="mdl-navigation__link mdl-js-ripple-effect{% if page.site_nav_category == 'about' %} mdl-navigation__link--current{% endif %}"
+              href="{{ site.baseurl }}/about">{{ 'About' | escape }}<div class="mdl-ripple"></div></a>     
 
     </nav>
   </div>
