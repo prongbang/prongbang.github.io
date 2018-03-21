@@ -20,5 +20,4 @@ site_nav_category_order: 300
 
 #### Social
 - [Github](https://github.com/prongbang)
-- [Facebook Page](https://www.facebook.com/next.event)
 - [CHANEL - YouTub](https://www.youtube.com/channel/UCaAQK64A7GVuyWmXv2rXf_g/videos)
