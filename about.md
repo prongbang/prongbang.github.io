@@ -20,4 +20,4 @@ site_nav_category_order: 300
 
 #### Social
 - [Github](https://github.com/prongbang)
-- [CHANEL - YouTub](https://www.youtube.com/channel/UCaAQK64A7GVuyWmXv2rXf_g/videos)
+- [CHANEL - YouTube](https://www.youtube.com/channel/UCaAQK64A7GVuyWmXv2rXf_g/videos)
