@@ -12,7 +12,9 @@ layout: default
       {% for post in paginator.posts %}
         {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
         <div style="width: 100%;" class="mdl-card mdl-shadow--2dp">
-          <img src="{{post.cover_image}}" alt="{{ post.title | escape }}"/>
+          <a href="{{ post.url | relative_url }}">
+            <img src="{{post.cover_image}}" alt="{{ post.title | escape }}"/>
+          </a>
           <div class="mdl-card__title">
             <h2 class="mdl-card__title-text"><a style="color:black;" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h2>
           </div>
