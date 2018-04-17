@@ -4,6 +4,7 @@ title:  "[Flutter] ตอนที่ 2 การใช้งาน Buttons"
 short_description: "ลองใช้งาน Buttons ต่าง ๆ และใช้งาน Event เมื่อมีการคลิกปุ่ม"
 date:   2018-03-03 11:32:02 +0700
 categories: flutter
+tags: [flutter]
 cover_image: /assets/images/flutter/02-0-button.png
 author: "end try"
 ---

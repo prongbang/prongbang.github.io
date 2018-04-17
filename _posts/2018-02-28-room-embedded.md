@@ -4,6 +4,7 @@ title:  "ว่าด้วยเรื่องการใช้งาน Embe
 short_description: "เราจะมาลอง Insert Object ที่มี Object และ ArrayList ซ้อนกันอยู่ใน Class นั้น ๆ โดยที่ไม่ต้องทำ Relations โดยการ Embedded และการ Convert type กัน"
 date:   2018-02-28 20:11:37 +0700
 categories: android
+tags: [android]
 cover_image: /assets/images/room-embedded.png
 author: "end try"
 ---
