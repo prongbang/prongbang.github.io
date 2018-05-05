@@ -1,29 +1,92 @@
 ---
 layout: default
 ---
-<div class="post">
+<article class="recipe-article">
+  <header>
+    <br><br>
+    <h2 class="mb1 px3">{{ page.title | escape }}</h1>
 
-  <!-- <header class="post-header">
-    <h1 class="post-title">{{ page.title }}</h1>
-    <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
-  </header> -->
-  <header class="post-header">
-    <h2 class="post-title" itemprop="name headline">{{ page.title | escape }}</h2>
-    <p><img src="{{ page.cover_image }}" alt="{{page.title}}"/></p>
-    <p class="post-meta">
-      <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-        {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-        {{ page.date | date: date_format }}
-      </time>
-      {% if page.author %}
-        • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>
-      {% endif %}
-    </p>
-    <p style="text-indent: 2.5em;">{{ page.short_description }}</p>
+    <!-- Start byline -->
+    <address class="ampstart-byline clearfix mb4 px3 h5">
+        <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+            {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+            {{ page.date | date: date_format }}
+        </time>
+    </address>
+    <!-- End byline -->
+    <amp-img src="{{ page.cover_image }}" width="1280" height="653" layout="responsive" alt="{{page.title}}" class="mb4 mx3"></amp-img>
+
   </header>
-    
-  <article class="post-content">
-    {{ content }}
-  </article>
+  <p class="mb4 px3">
+      {{ page.short_description }}
+  </p>
 
-</div>
+  <section class="px3 mb4">
+    <section class="mb4">
+        {{ content }}
+    </section>
+
+  <section>
+    <h2 class="h3 mb4">Recommended for you</h2>
+    <ul class="ampstart-related-section-items list-reset flex flex-wrap m0">
+        {% assign firstCategory = page.categories | first %}
+        {% assign relatedCount = 0 %}
+        {% for related in site.categories[firstCategory] %}
+            {% assign relatedCount = relatedCount | plus: 1 %}
+            <li class="col-12 sm-col-4 md-col-4 lg-col-4 pr2 py2">
+                <a href="{{related.url}}" class="text-decoration-none">
+                <figure class="ampstart-image-with-caption m0 relative mb4">
+                    <amp-img src="{{related.cover_image}}" alt="{{related.title}}" width="285" height="185" layout="responsive" class=""></amp-img>
+                  <figcaption class="h5 mt1 px3">
+                      {{related.title}}
+                  </figcaption>
+                </figure>
+                </a>
+              </li>
+            {% if relatedCount == 6 %}
+                {% break %}
+            {% endif %}
+        {% endfor %}
+    </ul>
+  </section>
+
+  <div class="ampstart-social-follow list-reset flex justify-around items-center flex-wrap m0 mb4">
+      <p class="social-share">
+          <amp-social-share type="twitter"
+            width="45"
+            height="33"
+            data-param-url="AMPDOC_URL"></amp-social-share>
+          <amp-social-share type="facebook"
+            width="45"
+            height="33"
+            data-attribution="2091638491081797"
+            data-param-url="AMPDOC_URL"></amp-social-share>
+          <amp-social-share type="gplus"
+            width="45"
+            height="33"
+            data-param-url="AMPDOC_URL"></amp-social-share>
+          <amp-social-share type="email"
+            width="45"
+            height="33"
+            data-param-url="AMPDOC_URL"></amp-social-share>
+          <amp-social-share type="pinterest"
+            width="45"
+            height="33"
+            data-param-url="AMPDOC_URL"></amp-social-share>
+        </p>
+    </div> 
+    
+    <section>
+      <h2 class="mb3">Categories</h2>
+      <ul class="list-reset p0 m0 mb4">
+          {% capture site_tags %}{% for tag in site.tags %}{{ tag | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
+          {% assign sortedTags = site_tags | split:',' | sort %}
+          {% for tag in sortedTags %}
+          <li class="mb2">
+            <a href="/category/{{ tag | cgi_escape }}" class="text-decoration-none h3">{{ tag }}</a>
+          </li>
+          {% endfor %}
+      </ul>
+    </section>
+  </section>
+</article>

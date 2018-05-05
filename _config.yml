@@ -23,6 +23,18 @@ plugins:
 # Produces a cleaner folder structure when using categories
 # permalink: /:categories/:year/:month/:title.html
 
+collections:
+  category:
+    output: true
+    
+defaults:
+  -
+    scope:
+      path: ""
+      type: category
+    values:
+      layout: "category"
+
 # pagination:
 #   enabled: true
 #   per_page: 15

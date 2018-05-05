@@ -69,6 +69,7 @@ body {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+  line-height: 18pt;
 }
 
 .description {
@@ -274,7 +275,7 @@ a img {
 
 .android-font {
   font-family: 'And Black', 'Helvetica', 'Arial', sans-serif;
-  line-height: 1;
+  line-height: 18pt;
   color: #767777;
   font-weight: 300;
 }

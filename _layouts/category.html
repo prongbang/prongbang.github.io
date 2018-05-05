@@ -1,0 +1,11 @@
+--- 
+layout: page 
+--- 
+<section class="recipe-popular-articles">
+{% for post in site.categories[page.categories] %}
+    <a href="{{ post.url | absolute_url }}">
+        <amp-img src="{{post.cover_image}}" width="1280" height="553" layout="responsive" alt="{{post.title}}" class="mb1"></amp-img>
+    </a>        
+    <h3 class="mb4">{{ post.title }}</h3> 
+{% endfor %}
+</section>

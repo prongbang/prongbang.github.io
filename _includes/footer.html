@@ -1,69 +1,23 @@
-<footer class="mdl-mini-footer tac-site-footer">
-  <!-- <div>
-    <div class="one-third"></div>
-    <section class="widget widget-recent-posts">
-      <h2 class="widget-title">Latest Posts</h2>
-      <ul class="recent-posts">
-        {% for post in site.posts limit:3 %}
-        <li>
-          {% if post.featured_image %}
-          <a href="{{ site.baseurl }}{{ post.url}}" class="post-thumb" style="background-image: url({{site.baseurl}}{{post.cover_image}});"></a>
-          {% endif %}
-          <div class="post-title">
-            <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-          </div>
-          <div class="post-date">{{ post.date | date: "%B %-d, %Y" }}</div>
-        </li>
-        {% endfor %}
-      </ul>
-    </section>
-  </div> -->
-
-  <!-- Create a sorted array of tags -->
-  <!-- <div class="one-third">
-    {% capture site_tags %}{% for tag in site.tags %}{{ tag | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{%
-    endcapture %} {% assign sortedTags = site_tags | split:',' | sort %}
-    <section class="widget widget-tags">
-      <h2 class="widget-title">Tags</h2>
-      <div class="tagcloud">
-        {% for tag in sortedTags %}
-        <a href="{{ site.baseurl }}/tags/#{{ tag | cgi_escape }}">{{ tag }}</a>
-        {% endfor %}
-      </div>
-    </section>
-  </div>
-  </div>
-  <div class="mdl-mini-footer__left-section">
-    <span>
-      Copyright &copy; 2018 | Theme by MDL
-    </span>
-  </div>
-  <script type="text/javascript">
-    (function () {
-      'use strict';
-
-      anchors.options.placement = 'left';
-      anchors.add(
-        '.post-content > h1, .post-content > h2, .post-content > h3, .post-content > h4, .post-content > h5, .post-content > h6'
-      );
-    })();
-  </script> -->
+<!-- Start Footer -->
+<footer class="ampstart-footer flex flex-column items-center px3 ">
+  <nav class="ampstart-footer-nav">
+    <ul class="list-reset flex flex-wrap mb3">
+      <li class="px1">
+        <a class="text-decoration-none ampstart-label" href="/">Post</a>
+      </li>
+      <li class="px1">
+        <a class="text-decoration-none ampstart-label" href="/about">About</a>
+      </li>
+      <li class="px1">
+        <a class="text-decoration-none ampstart-label" href="/privacy-policy">Terms</a>
+      </li>
+    </ul>
+  </nav>
+  <small>
+    © End Try,
+    <script>
+      document.write(new Date().getFullYear());
+    </script>
+  </small>
 </footer>
-
-<footer class="docs-text-styling docs-footer mdl-mini-footer mdl-color--grey-900">
-  <div class="mdl-mini-footer__left-section">
-    <span>
-      Copyright &copy; 2018 | Theme by MDL
-    </span>
-  </div>
-  <script type="text/javascript">
-    (function () {
-      'use strict';
-
-      anchors.options.placement = 'left';
-      anchors.add(
-        '.post-content > h1, .post-content > h2, .post-content > h3, .post-content > h4, .post-content > h5, .post-content > h6'
-      );
-    })();
-  </script>
-</footer>
+<!-- End Footer -->
