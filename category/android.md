@@ -1,6 +1,6 @@
 ---
 layout: category
 title: Android
-categories: Android
+categories: android
 permalink: "/category/android"
 ---

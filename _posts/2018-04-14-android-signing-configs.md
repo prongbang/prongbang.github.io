@@ -3,8 +3,8 @@ layout: post
 title:  "[Android] เก็บ password ของ Signing Config ไว้ในไฟล์ keystore.properties"
 short_description: "เพื่อไม่ให้ password ของ keystore ซึ่งจากเดิมจะอยู่ในไฟล์ build.gradle หลุดเราจึงมีความจำเป็นที่จะต้องเปลี่ยนที่อยู่ให้มัน"
 date:   2018-04-14 21:32:02 +0700
-categories: Android
-tags: [Android]
+categories: android
+tags: [android]
 cover_image: /assets/images/android/1.png
 author: "end try"
 ---

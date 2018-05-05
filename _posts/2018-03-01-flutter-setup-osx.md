@@ -3,8 +3,8 @@ layout: post
 title:  "ติดตั้ง Flutter บนเครื่อง mac osx"
 short_description: "Flutter คือ UI Framework ที่ใช้พัฒนาโมบายแอพพลิเคชั่น ที่อยู่ในหมวดของ Hybrid Native ที่สามารถเขียนทีเดียวแล้วได้ทั้ง IOS และ Android โดยใช้ภาษา Dart"
 date:   2018-03-01 18:45:42 +0700
-categories: Flutter
-tags: [Flutter]
+categories: flutter
+tags: [flutter]
 cover_image: /assets/images/setup-flutter.png
 author: "end try"
 ---

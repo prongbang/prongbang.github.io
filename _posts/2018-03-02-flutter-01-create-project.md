@@ -3,8 +3,8 @@ layout: post
 title:  "[Flutter] ตอนที่ 1 สร้างโปรเจค"
 short_description: "หลังที่เราได้ติดตั้ง Flutter SDK และ Editor เสร็จแล้ว เราจะมาลองสร้างโปรเจคเพื่อเขียนแอพพลิเคชั่นกัน ซึ่งในตอนนี้ยังเป็น Beta อยู่"
 date:   2018-03-02 12:34:42 +0700
-categories: Flutter
-tags: [Flutter]
+categories: flutter
+tags: [flutter]
 cover_image: /assets/images/flutter/01-0-create-project.png
 author: "end try"
 ---
