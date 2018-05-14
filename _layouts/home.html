@@ -21,13 +21,15 @@ layout: default
               <h3 class="title">{{ post.title | escape }}</h3>
               <p class="date">{{ post.date | date: date_format }}</p>
               <p class="text">{{ post.short_description | escape }}</p>
+              <!-- 
               <p class="social-share">
                 <amp-social-share type="twitter" width="45" height="33" data-param-url="{{ post.url | relative_url }}"></amp-social-share>
                 <amp-social-share type="facebook" width="45" height="33" data-attribution="2091638491081797" data-param-url="{{ post.url | relative_url }}"></amp-social-share>
                 <amp-social-share type="gplus" width="45" height="33" data-param-url="{{ post.url | relative_url }}"></amp-social-share>
                 <amp-social-share type="email" width="45" height="33" data-param-url="{{ post.url | relative_url }}"></amp-social-share>
                 <amp-social-share type="pinterest" width="45" height="33" data-param-url="{{ post.url | relative_url }}"></amp-social-share>
-              </p>
+              </p> 
+              -->
             </div>
           </div>
           {% endfor %}
