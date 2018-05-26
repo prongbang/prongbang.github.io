@@ -8,31 +8,15 @@
 
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 
-  <meta property="og:image" content="{{site.baseurl}}{% if page.cover_image %}{{ page.cover_image }}{% else %}{{ site.cover_image }}{% endif %}">
+  <meta property="og:image" content="{{site.url}}{% if page.cover_image %}{{ page.cover_image }}{% else %}{{ site.cover_image }}{% endif %}">
   <meta property="og:image:type" content="image/png">
-  <meta property="og:image:width" content="1024">
-  <meta property="og:image:height" content="1024">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
 
-  <link rel="shortcut icon" type="image/png" href="{{ site.baseurl }}/assets/favicon.png" />
-  <!-- Page styles -->
-  <!-- <link href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en" rel="stylesheet"> -->
-  <!-- <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> -->
-  <!-- MDL -->
-  <!-- <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}"> -->
-  <!-- <script src="https://storage.googleapis.com/code.getmdl.io/1.0.1/material.min.js"></script> -->
-  <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"> -->
-
+  <link rel="shortcut icon" type="image/png" href="{{ site.url }}/assets/favicon.png" />
   <link rel="stylesheet" id="bulma" href="{{site.baseurl}}/assets/css/highlight.css" />
-  <!-- <link rel="stylesheet" id="bulma" href="{{site.baseurl}}/assets/css/main.css" /> -->
-  <!-- <link rel="stylesheet" id="bulma" href="{{site.baseurl}}/assets/css/bulma.min.css" /> -->
-  <!-- <link rel="stylesheet" type="text/css" href="{{site.baseurl}}/assets/css/core.css"> -->
-  <!-- <link rel="stylesheet" type="text/css" href="{{site.baseurl}}/assets/css/icons.css"> -->
-
-  <!-- Link anchoring -->
-  <!-- <script src="//cdnjs.cloudflare.com/ajax/libs/anchor-js/3.2.0/anchor.min.js"></script> -->
 
   <script async="" src="https://cdn.ampproject.org/v0.js"></script>
-
   <style amp-boilerplate="">
     body {
       -webkit-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
