@@ -16,5 +16,4 @@ site_nav_category_order: 300
 #### Experience
 - Java Developer / Android Developer (Marco Technology Co. Ltd) August 2015 - February 2017
 - Android Developer (Touch Technologies Co. Ltd.) February 2017 - June 2018
-- Android Developer (Brink's Global Technology Limited.) June 2018 - Present
 - React / React Native Developer, Golang Developer, Android Developer (Freelance) Janury 2017 - Present
