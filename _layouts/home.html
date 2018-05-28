@@ -2,56 +2,54 @@
 layout: default
 ---
 
-<article class="recipe-article">
+<section class="recipe-article">
   <br><br>
-  <section class="px3 mb4">
-    <section class="mb4">
-      {{ content }}
+  <section class="mb4">
+    {{ content }}
 
-      <amp-live-list layout="container" data-poll-interval="15000" data-max-items-per-page="5" id="amp-live-list-insert-blog">
-        <!-- {% include advertisements.html %} -->
-        {% for post in paginator.posts %} {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-        <div items>
-          <div data-sort-time="20180505100727">
-            <div class="ampstart-card m2 blog">
-              <a href="{{post.url}}">
-                <amp-img src="{{post.cover_image}}" layout="responsive" width="1280" height="600">
-                </amp-img>
-              </a>
-              <h3 class="title">{{ post.title | escape }}</h3>
-              <p class="date">{{ post.date | date: date_format }}</p>
-              <p class="text">{{ post.short_description | escape }}</p>
-              <!-- 
-              <p class="social-share">
-                <amp-social-share type="twitter" width="45" height="33" data-param-url="{{ post.url | relative_url }}"></amp-social-share>
-                <amp-social-share type="facebook" width="45" height="33" data-attribution="2091638491081797" data-param-url="{{ post.url | relative_url }}"></amp-social-share>
-                <amp-social-share type="gplus" width="45" height="33" data-param-url="{{ post.url | relative_url }}"></amp-social-share>
-                <amp-social-share type="email" width="45" height="33" data-param-url="{{ post.url | relative_url }}"></amp-social-share>
-                <amp-social-share type="pinterest" width="45" height="33" data-param-url="{{ post.url | relative_url }}"></amp-social-share>
-              </p> 
-              -->
-              <p>&nbsp;</p> 
-            </div>
+    <amp-live-list layout="container" data-poll-interval="15000" data-max-items-per-page="5" id="amp-live-list-insert-blog">
+      <!-- {% include advertisements.html %} -->
+      {% for post in paginator.posts %} {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+      <div items>
+        <div data-sort-time="20180505100727">
+          <div class="ampstart-card m2 blog">
+            <a href="{{post.url}}">
+              <amp-img src="{{post.cover_image}}" layout="responsive" width="1280" height="600">
+              </amp-img>
+            </a>
+            <h3 class="title">{{ post.title | escape }}</h3>
+            <p class="date">{{ post.date | date: date_format }}</p>
+            <p class="text">{{ post.short_description | escape }}</p>
+            <!-- 
+            <p class="social-share">
+              <amp-social-share type="twitter" width="45" height="33" data-param-url="{{ post.url | relative_url }}"></amp-social-share>
+              <amp-social-share type="facebook" width="45" height="33" data-attribution="2091638491081797" data-param-url="{{ post.url | relative_url }}"></amp-social-share>
+              <amp-social-share type="gplus" width="45" height="33" data-param-url="{{ post.url | relative_url }}"></amp-social-share>
+              <amp-social-share type="email" width="45" height="33" data-param-url="{{ post.url | relative_url }}"></amp-social-share>
+              <amp-social-share type="pinterest" width="45" height="33" data-param-url="{{ post.url | relative_url }}"></amp-social-share>
+            </p> 
+            -->
+            <p>&nbsp;</p> 
           </div>
-          {% endfor %}
-      </amp-live-list>
-      <br>
-      <!-- 
-        Showing buttons to move to the next and to the previous list of posts (pager buttons).
-      -->
-      {% if paginator.total_pages > 1 %}
-      <ul class="pager">
-        {% if paginator.previous_page %}
-        <li class="previous">
-          <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
-        </li>
-        {% endif %} {% if paginator.next_page %}
-        <li class="next">
-          <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
-        </li>
-        {% endif %}
-      </ul>
+        </div>
+        {% endfor %}
+    </amp-live-list>
+    <br>
+    <!-- 
+      Showing buttons to move to the next and to the previous list of posts (pager buttons).
+    -->
+    {% if paginator.total_pages > 1 %}
+    <ul class="pager">
+      {% if paginator.previous_page %}
+      <li class="previous">
+        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
+      </li>
+      {% endif %} {% if paginator.next_page %}
+      <li class="next">
+        <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
+      </li>
       {% endif %}
-    </section>
+    </ul>
+    {% endif %}
   </section>
-</article>
+</section>
