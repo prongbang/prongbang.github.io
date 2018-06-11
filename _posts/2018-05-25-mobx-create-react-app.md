@@ -144,7 +144,7 @@ export default class App extends React.Component {
 {% endhighlight %}
 
 <br>
-สามารถดูกว่าตั้งค่าเพิ่มเติมได้ที่ [https://github.com/timarney/react-app-rewired/tree/master/packages/react-app-rewire-mobx](https://github.com/timarney/react-app-rewired/tree/master/packages/react-app-rewire-mobx)
+สามารถดูการตั้งค่าเพิ่มเติมได้ที่ [https://github.com/timarney/react-app-rewired/tree/master/packages/react-app-rewire-mobx](https://github.com/timarney/react-app-rewired/tree/master/packages/react-app-rewire-mobx)
 
 <br>
 หากผิดพลาดประการต้องขออภัย ณ ที่ตรงนั้นด้วย...  
