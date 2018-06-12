@@ -109,7 +109,7 @@ ____________________________________O/_______
 
 {% endhighlight %}
 
-### ลองใช้งาน API ตาม Route ที่เราเขียนโดยใช้ `Postnam`
+### ลองใช้งาน API ตาม Route ที่เราเขียนโดยใช้ `Postman`
 <br>
 - ดึงข้อมูล `chat` จาก `API` ผ่าน Method `GET`
 {% highlight shell %}
