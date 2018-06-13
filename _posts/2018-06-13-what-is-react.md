@@ -34,7 +34,7 @@ class MyComponent extends Component {
 }
 {% endhighlight %}
 
-ถ้าเราต้องการเปลี่ยนแปลงค่าใน state ที่ชื่อว่า isState เราก็แค่เรียกใช้ฟังก์ชัน setState ตามนี้
+ถ้าเราต้องการเปลี่ยนแปลงค่าใน state ที่ชื่อว่า `isState` เราก็แค่เรียกใช้ฟังก์ชัน `setState` ตามนี้
 {% highlight js %}
 this.setState({isState: "Update State"});
 {% endhighlight %}
@@ -47,12 +47,12 @@ this.setState({isState: "Update State", myState: "Update My State"});
 3. Props (Properties)
 <br>
 
-เป็นการกำหนดคุณสมบัติให้กับ Component นั้น ๆ เพื่อใช้ส่งข้อมูลจาก Component หนึ่ง ไปให้อีก Component หนึ่ง ถ้ามองภาพไม่ออก ลองดูจาก  code นี้
+เป็นการกำหนดคุณสมบัติให้กับ `Component` นั้น ๆ เพื่อใช้ส่งข้อมูลจาก `Component` หนึ่ง ไปให้อีก `Component` หนึ่ง ถ้ามองภาพไม่ออก ลองดูจาก  code นี้
 {% highlight js %}
 <MyComponent myProperties={"I'm properties"} />
 {% endhighlight %}
 
-จะเห็นว่ามีการกำหนดคุณสมบัติให้กับ Component ชื่อว่า myProperties โดยกำหนดค่าเป็น “I’m properties” ซึ่งเป็นการเขียนแบบ JSX ([JavaScript Syntax Extension](https://facebook.github.io/jsx/)) เป็นการเขียนที่คล้ายกับ XML โดยที่เราสามารถนำชื่อ class มาใช้เป็น tag ได้ ซึ่งจากตัวอย่าง “MyComponent” ก็คือชื่อ class นั่นเอง และยังสามารถแทรก JavaScript โดยใช้ {} ได้อีกด้วย
+จะเห็นว่ามีการกำหนดคุณสมบัติให้กับ `Component` ชื่อว่า myProperties โดยกำหนดค่าเป็น “I’m properties” ซึ่งเป็นการเขียนแบบ JSX ([JavaScript Syntax Extension](https://facebook.github.io/jsx/)) เป็นการเขียนที่คล้ายกับ XML โดยที่เราสามารถนำชื่อ class มาใช้เป็น tag ได้ ซึ่งจากตัวอย่าง “MyComponent” ก็คือชื่อ class นั่นเอง และยังสามารถแทรก JavaScript โดยใช้ {} ได้อีกด้วย
 
 <br>
 
@@ -86,9 +86,9 @@ var style = {
 
 ### จุดเด่นของ React
 <br>
-- Render ได้ทั้งฝั่ง Server และ Client จึงทำให้ React สามารถเขียนเว็บแบบ “Isomorphic JavaScript” หรือ “Universal JavaScript” ได้ 
+- Render ได้ทั้งฝั่ง `Server` และ `Client` จึงทำให้ `React` สามารถเขียนเว็บแบบ “Isomorphic JavaScript” หรือ “Universal JavaScript” ได้ 
 
-“Isomorphic JavaScript” หรือ “Universal JavaScript”  คือ รูปแบบการเขียนโค้ดด้วยภาษา JavaScript ทั้งฝั่ง Server และ Client 
+“Isomorphic JavaScript” หรือ “Universal JavaScript”  คือ รูปแบบการเขียนโค้ดด้วยภาษา JavaScript ทั้งฝั่ง `Server` และ `Client` 
 
 <br>
 
@@ -99,8 +99,3 @@ var style = {
 
 <br>
 เท่านี้ก่อนแล้วกันเดี๊ยวจะเบื่อไปซะก่อน ~
-
-
-{% highlight js %}
-
-{% endhighlight %}
