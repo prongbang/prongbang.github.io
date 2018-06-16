@@ -455,7 +455,7 @@ GridLayoutManager(context, 2, GridLayoutManager.HORIZONTAL, true)
 
 ### Staggered Grid Layout Manager
 
-<img src="/assets/images/android/9-2.png">
+<img src="/assets/images/android/9-3.png">
 <br>
 <br>
 
