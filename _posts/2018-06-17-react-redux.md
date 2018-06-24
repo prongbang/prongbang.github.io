@@ -58,7 +58,7 @@ dispatch({
 // reducers/counter.js
 var initialState = { couter: 0, text: "" }
 
-function counter(state = initialState, action) {
+function counterReducer(state = initialState, action) {
   switch (action.type) {
   case 'INCREMENT':
     return {
@@ -74,6 +74,8 @@ function counter(state = initialState, action) {
     return state
   }
 }
+
+export default counterReducer;
 {% endhighlight %}
 
 ** ถ้าใครเป็นคนช่างสังเก็ดเราจะเห็นว่าในโค้ดมีการเรียกใช้ `action.type` ซึ่งก็หมายความว่า มันอยากรู้ว่าเราส่ง `Action` อะไรมาให้นั่นเอง และมีการเรียกใช้ `action.text` ซึ่งก็หมายความว่า มันดึงเอาค่าที่เราส่งมาจาก `Action` นั่นเอง
@@ -122,6 +124,7 @@ const store = createStore(reducer)
 
 ** `reducer` คือ ชื่อฟังก์ชันที่เป็น `combineReducers` ที่เราสร้างเพื่อรวม Reducer ก่อนหน้านี้
 
+<br>
 ### การเรียกใช้งาน
 <br>
 
@@ -152,7 +155,7 @@ src
 │   └── index.js
 {% endhighlight %}
 
-- ใน `actions` เราจะเก็บ Key ที่เป็น action โดยสร้างไฟล์ชื่อว่า `index.js` เพื่อเป็น index ไฟล์ในโฟล์เดอร์ เวลาเราเรียกใช้ตอน `import` จะได้ไม่ต้องอ้างถึงชื่อไฟล์
+### ใน `actions` เราจะเก็บ Key ที่เป็น action โดยสร้างไฟล์ชื่อว่า `index.js` เพื่อเป็น index ไฟล์ในโฟล์เดอร์ เวลาเราเรียกใช้ตอน `import` จะได้ไม่ต้องอ้างถึงชื่อไฟล์
 {% highlight jsx %}
 export default class Action {
 
@@ -162,7 +165,7 @@ export default class Action {
 }
 {% endhighlight %}
 
-- ใน `components` เราจะเก็บไฟล์ที่เป็น Component เพื่อให้หน้าอื่น ๆ สามารถหยิบไปใช้งานได้ โดยในที่นี้เราจะสร้างไฟล์ชื่อ `counter.js` โดยมีการทำงานคือ 1.แสดงค่า 2.ปุ่มเพิ่มค่า 3.ปุ่มลดค่า โดยมีการรับค่าผ่าน `props` ตามนี้
+### ใน `components` เราจะเก็บไฟล์ที่เป็น Component เพื่อให้หน้าอื่น ๆ สามารถหยิบไปใช้งานได้ โดยในที่นี้เราจะสร้างไฟล์ชื่อ `counter.js` โดยมีการทำงานคือ 1.แสดงค่า 2.ปุ่มเพิ่มค่า 3.ปุ่มลดค่า โดยมีการรับค่าผ่าน `props` ตามนี้
 {% highlight jsx %}
 import React from 'react'
 
@@ -190,29 +193,200 @@ class Counter extends React.Component {
 export default Counter
 {% endhighlight %}
 
-- เดียวมาเขียนตาครับ
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+### ใน `reducers` เราจะเก็บไฟล์ที่ทำหน้าที่จัดการกับ `state` ต่าง ๆ ในแอพของเรา ​ซึ่งมีได้หลาย `reducer` โดยในที่นี่จะมีอยู่ 2 ไฟล์ด้วยกันคือ `counter.js` และ `index.js` 
 
 <br>
+ไฟล์ `counter.js` คือ `reducer` ที่มีหน้าที่จัดการกับ `state` ของ couter หน้าตาของมันจะประมาณนี้
+{% highlight jsx %}
+import Action from '../actions' 
+
+var initialState = {
+    couter: 0,
+    text: ""
+}
+
+function counterReducer(state = initialState, action) {
+    switch (action.type) {
+        case Action.INCREMENT:
+            return {
+                couter: state.couter + 1,
+                text: action.text
+            }
+        case Action.DECREMENT:
+            return {
+                couter: state.couter - 1,
+                text: action.text
+            }
+        default:
+            return state
+    }
+}
+
+export default counterReducer;
+{% endhighlight %}
+
 <br>
+ไฟล์ `index.js` คือ `combineReducers` ที่ทำหน้าที่รวม `Reducer` หน้าตาของมันจะประมาณนี้
+{% highlight jsx %}
+import { combineReducers } from 'redux'
+import counterReducer from './counter'
+
+export default combineReducers({
+    counter: counterReducer
+})
+{% endhighlight %}
+
+### ต่อไปจะเป็นส่วนของการสร้าง `store` และการนำไปใช้งาน โดยเราจะไปเขียนเรียกใช้งานในไฟล์ `index.js` หน้าตาของมันจะประมาณนี้
+{% highlight jsx %}
+...
+
+import { createStore } from 'redux'
+import { Provider } from 'react-redux'
+import reducer from './reducers'
+
+const store = createStore(reducer)
+
+ReactDOM.render(  
+    <Provider store={store}>
+        <App />
+    </Provider>, 
+    document.getElementById('root')
+);
+
+...
+{% endhighlight %}
+
+** โดยการทำงานของมันคือ สร้าง `store` ผ่านฟังก์ชัน `createStore` โดยส่ง `combineReducers` เข้าไป จากนั้นก็ส่ง `store` เข้าไปใน `Provider` ผ่าน `props` ที่ชื่อว่า `store` เพื่อให้ `Component` ทั้งหมดในแอพของเราสามารถเรียกใช้งาน `store` ได้
+<br>
+<br>
+
+### ต่อไปจะเป็นส่วนของการเรียกใช้งานใน Component ในที่นี้เราจะเรียกใช้งานใน Component ที่ชื่อว่า `App` ก่อนที่เราจะเรียกใช้เรามารู้จักกับ 3 คำนี้ก่อน
+
+- `mapStateToProps` คือ ฟังก์ชันที่ทำหน้าที่ยัด `state` เข้าไปใน `props` 
+- `mapDispatchToProps` คือ ฟังก์ชันที่ทำหน้าที่ยัด `ฟังก์ชันของ action` ที่เป็นตัวไปบอกให้ `reducer` ทำงานตามที่กำหนดผ่าน `dispatch` เข้าไปใน `props` 
+- `connect` คือ ฟังก์ชันที่ทำหน้าที่ยัด `mapStateToProps` และ `mapDispatchToProps` เพื่อให้ `Component` ที่ `connect` กับ `store` สามารถเข้าถึง `state` และ `ฟังก์ชันที่เป็น dispatch` ผ่าน `props` ได้นั้นเอง
+
+<br>
+ถ้ามองไม่เป็นภาพว่ามันเรียกใช้งานยังไงมาดูโค้ดของแต่ละส่วนกันโดยเราจะเริ่มตามลำดับตามนี้
+
+- `mapStateToProps` มีวิธีเรียกใช้งานประมาณนี้
+{% highlight jsx %}
+const mapStateToProps = state => ({
+  counter: state.counter
+});
+{% endhighlight %}
+** การยัด `state` เข้าไปใน `props` มันมีหลักการเรียกใช้คือ "คีย์ของ state : state.ชื่อคีย์ที่เรากำหนดไว้ใน combineReducers" ถ้าเราเอามาแทนค่าจะได้แบบนี้
+
+- `คีย์ของ state` <-> `counter` (เราควรตั้งชื่อคีย์ที่สื่อความหมายตาม state ของเรา)
+- `state.ชื่อคีย์ที่เรากำหนดไว้ใน combineReducers` <-> `state.counter` (คือส่วนนี้ `counter: counterReducer`)
+
+เมื่อเอามารวมกันก็จะได้แบบนี้
+{% highlight jsx %}
+counter: state.counter
+{% endhighlight %}
+
+- `mapDispatchToProps` สามารถทำได้อยู่ 2 วิธีด้วยกันคือ `dispatch` กับ `bindActionCreators` แล้วสองตัวนี้ต่างกันยังไงมาดู
+<br>
+<br>
+การใช้ `dispatch` เราจะต้องกำหนดฟังก์ชันของ `action` ประมาณนี้
+{% highlight jsx %}
+const mapDispatchToProps = dispatch => ({
+    increment: () => dispatch({type: Action.INCREMENT, text: "INCREMENT Redux"}),
+    decrement: () => dispatch({type: Action.DECREMENT, text: "DECREMENT Redux"}),
+});
+{% endhighlight %}
+
+วิธีเรียกใช้จะประมาณนี้
+{% highlight jsx %}
+this.props.increment();
+this.props.decrement();
+{% endhighlight %}
+
+ส่วนการใช้ `bindActionCreators` เราจะต้องกำหนดฟังก์ชันประมาณนี้ มันคือการเขียน `action` เป็นแบบฟังก์ชัน โดยส่งเข้าไปให้ `bindActionCreators` ทำการ `bind` ฟังก์ชันเข้าไปใน `props`
+{% highlight jsx %}
+import { bindActionCreators } from 'redux'
+import * as counterActions from '../action/counter'
+
+const mapDispatchToProps = dispatch => ({
+  counterActions: bindActionCreators(counterActions, dispatch)
+})
+{% endhighlight %}
+
+แต่ว่าเราจะต้องสร้างฟังก์ชันที่เป็น `action` ของ `couter` ประมาณนี้
+{% highlight jsx %}
+// action/counter.js
+import Action from './';
+
+export function increment(data) {
+    return {
+        type: Action.INCREMENT,
+        text: data
+    }
+}
+
+export function decrement(data) {
+    return {
+        type: Action.DECREMENT,
+        text: data
+    }
+}
+{% endhighlight %}
+
+วิธีเรียกใช้จะประมาณนี้
+{% highlight jsx %}
+// this.props.ชื่อคีย์.ชื่อฟังก์ชันของaction();
+this.props.counterActions.increment("Increment Redux");
+this.props.counterActions.decrement("Decrement Redux");
+{% endhighlight %}
+
+- `connect` มีวิธีเรียกใช้งานประมาณนี้
+{% highlight jsx %}
+export default connect(mapStateToProps, mapDispatchToProps)(App);
+{% endhighlight %}
+
+<br>
+มาดูโค้ดแบบเต็ม ๆ กัน
+{% highlight jsx %}
+import { connect } from 'react-redux'
+...
+import Action from './actions';
+import Counter from './components/counter';
+
+class App extends Component {
+
+  render() {
+    return (
+      <div className="App">
+        <Counter
+          value={this.props.counter}
+          onIncrement={() => this.props.increment()}
+          onDecrement={() => this.props.decrement()}
+        />
+      </div>
+    );
+  }
+}
+
+const mapStateToProps = state => ({
+  counter: state.counter
+});
+
+const mapDispatchToProps = dispatch => ({
+    increment: () => dispatch({type: Action.INCREMENT, text: "INCREMENT Redux"}),
+    decrement: () => dispatch({type: Action.DECREMENT, text: "DECREMENT Redux"}),
+});
+
+export default connect(mapStateToProps, mapDispatchToProps)(App);
+{% endhighlight %}
+
+นี่คือหน้าตาของแอพที่เราอธิบายการทำงานของ Redux โคตรช็อคมีแค่นีเหรอ ~
+<img src="/assets/images/react/6-1.png"/>
+
+<br>
+"จบแล้วครับ หากผิดพลาดประการใดขออภัยณที่นั้นด้วย"
+<br>
+<br>
+
+** สามารถดูโค้ดแบบเต็ม ๆ ไดที่นี่เลยครับ[จิ้มเลย](https://github.com/prongbang/easy-redux)
+
 <br>
