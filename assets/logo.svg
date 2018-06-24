@@ -1,90 +1,12 @@
-<svg id="Group_7117" data-name="Group 7117" xmlns="http://www.w3.org/2000/svg" viewBox="-16729 1457 1117 439">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 193 54">
   <defs>
     <style>
-      .cls-1, .cls-10, .cls-11, .cls-12, .cls-13, .cls-14, .cls-15, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8, .cls-9 {
-        fill: none;
-      }
-
-      .cls-10, .cls-11, .cls-12, .cls-13, .cls-14, .cls-15, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8, .cls-9 {
-        stroke: #707070;
-      }
-
-      .cls-2 {
-        stroke-width: 26px;
-      }
-
-      .cls-3 {
-        stroke-width: 19px;
-      }
-
-      .cls-4 {
-        stroke-width: 15px;
-      }
-
-      .cls-5 {
-        stroke-width: 12px;
-      }
-
-      .cls-6 {
-        stroke-width: 4px;
-      }
-
-      .cls-7 {
-        stroke-width: 10px;
-      }
-
-      .cls-8 {
-        stroke-width: 8px;
-      }
-
-      .cls-9 {
-        stroke-width: 6px;
-      }
-
-      .cls-10 {
-        stroke-width: 5px;
-      }
-
-      .cls-11 {
-        stroke-width: 14px;
-      }
-
-      .cls-12 {
-        stroke-width: 27px;
-      }
-
-      .cls-13 {
-        stroke-width: 24px;
-      }
-
-      .cls-14 {
-        stroke-width: 13px;
-      }
-
-      .cls-15 {
-        stroke-width: 7px;
+      .cls-1 {
+        fill: #333;
+        font-size: 46px;
+        font-family: HelveticaNeue, Helvetica Neue;
       }
     </style>
   </defs>
-  <rect id="Rectangle_994" data-name="Rectangle 994" class="cls-1" width="1117" height="439" transform="translate(-16729 1457)"/>
-  <g id="Group_7115" data-name="Group 7115" transform="translate(-1112 17)">
-    <line id="Line_13" data-name="Line 13" class="cls-2" x2="108" y2="229" transform="translate(-15560.5 1582.5)"/>
-    <line id="Line_14" data-name="Line 14" class="cls-3" x1="281" y2="66" transform="translate(-15573.5 1516.5)"/>
-    <line id="Line_15" data-name="Line 15" class="cls-4" y1="81" x2="197" transform="translate(-15464.5 1730.5)"/>
-    <line id="Line_16" data-name="Line 16" class="cls-5" y1="24" x2="141" transform="translate(-15506.5 1673.5)"/>
-    <line id="Line_17" data-name="Line 17" class="cls-4" x2="2" y2="152" transform="translate(-15236.5 1659.5)"/>
-    <line id="Line_18" data-name="Line 18" class="cls-6" x2="107" transform="translate(-15234.5 1673.5)"/>
-    <line id="Line_19" data-name="Line 19" class="cls-7" y1="138" transform="translate(-15127.5 1667.5)"/>
-    <line id="Line_20" data-name="Line 20" class="cls-8" y1="78" x2="71" transform="translate(-15095.5 1673.5)"/>
-    <line id="Line_21" data-name="Line 21" class="cls-9" x1="62" y1="58" transform="translate(-15095.5 1747.5)"/>
-    <line id="Line_22" data-name="Line 22" class="cls-10" x2="36" y2="24" transform="translate(-15028.5 1672.5)"/>
-    <line id="Line_23" data-name="Line 23" class="cls-11" y2="214" transform="translate(-14992.5 1597.5)"/>
-    <line id="Line_24" data-name="Line 24" class="cls-9" y1="15" x2="44" transform="translate(-15036.5 1790.5)"/>
-    <path id="Path_5572" data-name="Path 5572" class="cls-12" d="M0,0,245,69" transform="translate(-14931.5 1506.5)"/>
-    <line id="Line_26" data-name="Line 26" class="cls-13" y2="270" transform="translate(-14817.5 1541.5)"/>
-    <line id="Line_27" data-name="Line 27" class="cls-14" x2="2" y2="152" transform="translate(-14733.5 1659.5)"/>
-    <line id="Line_28" data-name="Line 28" class="cls-10" x2="83" transform="translate(-14732.5 1673.5)"/>
-    <line id="Line_29" data-name="Line 29" class="cls-15" x2="61" y2="81" transform="translate(-14643.5 1631.5)"/>
-    <line id="Line_30" data-name="Line 30" class="cls-11" x1="86" y2="180" transform="translate(-14629.5 1631.5)"/>
-  </g>
+  <text id="END_TRY" data-name="END TRY" class="cls-1" transform="translate(0 44)"><tspan x="0" y="0">END TRY</tspan></text>
 </svg>
