@@ -10,7 +10,7 @@ layout: default
     <amp-live-list layout="container" data-poll-interval="15000" data-max-items-per-page="5" id="amp-live-list-insert-blog">
       <!-- {% include advertisements.html %} -->
       {% for post in paginator.posts %} {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-      <div items>
+      <div items onclick="window.location = '{{post.url}}';" style="cursor: pointer;">
         <div data-sort-time="20180505100727">
           <div class="ampstart-card m2 blog">
             <a href="{{post.url}}">

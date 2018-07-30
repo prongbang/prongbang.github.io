@@ -1,11 +1,22 @@
 --- 
 layout: page 
 --- 
-<section class="recipe-popular-articles">
-{% for post in site.categories[page.categories] %}
-    <a href="{{ post.url | absolute_url }}">
-        <amp-img src="{{post.cover_image}}" width="1280" height="553" layout="responsive" alt="{{post.title}}" class="mb1"></amp-img>
-    </a>        
-    <h3 class="mb4">{{ post.title }}</h3> 
-{% endfor %}
+<section class="mb4">
+    <amp-live-list layout="container" data-poll-interval="15000" data-max-items-per-page="5" id="amp-live-list-insert-blog">
+    {% for post in site.categories[page.categories] %}
+        <div items onclick="window.location = '{{post.url}}';" style="cursor: pointer;">
+            <div data-sort-time="20180505100727">
+                <div class="ampstart-card m2 blog">
+                    <a href="{{ post.url | absolute_url }}">
+                        <amp-img src="{{post.cover_image}}" width="1280" height="553" layout="responsive" alt="{{post.title}}" class="mb1"></amp-img>
+                    </a>        
+                    <h3 class="title">{{ post.title }}</h3> 
+                    <p class="date">{{ post.date | date: date_format }}</p>
+                    <p class="text">{{ post.short_description | escape }}</p>
+                    <p>&nbsp;</p> 
+                </div>
+            </div>
+        </div>
+    {% endfor %}
+    </amp-live-list>
 </section>
