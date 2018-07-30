@@ -46,7 +46,7 @@ defaults:
 
 # Explicitly turn off the old code
 # Pagination Settings
-paginate: 15
+paginate: 20
 paginate_path: "/blog/page/:num/"
 
 # Exclude from processing.

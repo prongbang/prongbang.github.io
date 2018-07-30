@@ -149,11 +149,38 @@
         vertical-align: middle;
     }
   </style>
+  <style amp-custom>
+    .scrollToTop {
+      color: #fafafa;
+      font-size: 1.4em;
+      box-shadow: 0 1px 1.5px 0 rgba(0,0,0,.12), 0 1px 1px 0 rgba(0,0,0,.24);
+      width: 50px;
+      height: 50px;
+      border-radius: 100px;
+      border: none;
+      outline: none;
+      background: #E91E63;
+      z-index: 9999;
+      bottom: 16px;
+      right: 16px;
+      position: fixed;
+      opacity: 0;
+      visibility: hidden;
+    }
+    #marker {
+      position: absolute;
+      top: 100px;
+      width: 0px;
+      height: 0px;
+    }
+  </style>
 
   <script custom-element="amp-carousel" src="https://cdn.ampproject.org/v0/amp-carousel-0.1.js" async></script>
   <script custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js" async></script>
   <script custom-element="amp-accordion" src="https://cdn.ampproject.org/v0/amp-accordion-0.1.js" async></script>
   <script custom-element="amp-social-share" src="https://cdn.ampproject.org/v0/amp-social-share-0.1.js" async></script>
+  <script custom-element="amp-position-observer" src="https://cdn.ampproject.org/v0/amp-position-observer-0.1.js" async></script>
+  <script custom-element="amp-animation" src="https://cdn.ampproject.org/v0/amp-animation-0.1.js" async></script>
 
   <script type="application/ld+json">
     {
