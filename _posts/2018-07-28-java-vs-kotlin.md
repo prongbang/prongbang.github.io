@@ -230,7 +230,7 @@ Float.valueOf(data);
 Double.valueOf(data);
 ```
 
-# Kotlin: แปลงค่า
+### Kotlin: แปลงค่า
 
 - .toByte(): Byte
 - .toShort(): Short
