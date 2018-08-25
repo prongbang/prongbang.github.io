@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "[Android] สาย Android ควรทำความเข้าใจ Architecture Components MVVM ได้แล้วนะ แบบเร่งรัด"
+title:  "[Android] Architecture Components MVVM แบบเร่งรัด"
 short_description: "เพื่อให้เหล่านักพัฒนาแอพ Android เขียนโค้ดในทิศทางเดียวกัน ทาง Google จึงได้จัดชุดนี้มาให้ซะเลย เรามาดูว่าจะใช้ท่าไหน"
 date:   2018-08-25 16:32:34 +0700
 categories: android
