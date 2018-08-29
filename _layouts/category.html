@@ -20,3 +20,17 @@ layout: page
     {% endfor %}
     </amp-live-list>
 </section>
+<section class="mx2 mb4">
+    <h2 class="mb3">Categories</h2>
+    {% capture site_tags %}{% for tag in site.tags %}{{ tag | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
+    {% assign sortedTags = site_tags | split:',' | sort %}
+    <ul class="ampstart-related-section-items list-reset flex flex-wrap m0">
+    {% for tag in sortedTags %}
+    <li style="margin-bottom: 25px;border-bottom: none;">
+        <a href="/category/{{ tag | cgi_escape }}" class="ampstart-btn ampstart-btn-secondary" style="margin: 2px;text-transform: uppercase;">
+            {{tag}}
+        </a>
+    </li> 
+    {% endfor %}
+    </ul> 
+</section>
