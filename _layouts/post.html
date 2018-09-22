@@ -3,7 +3,11 @@ layout: default
 ---
 <article class="recipe-article">
   <header>
-    <br><br>
+    <br>
+    
+    <!-- End byline -->
+    <amp-img src="{{site.url}}{% if page.cover_image %}{{ page.cover_image }}{% else %}{{ site.cover_image }}{% endif %}" width="1280" height="653" layout="responsive" alt="{{page.title}}" class="mb4 mx3"></amp-img>
+    
     <h2 class="mb1 px3">{{ page.title | escape }}</h1>
 
     <!-- Start byline -->
@@ -14,15 +18,12 @@ layout: default
             {{ page.date | date: date_format }}
         </time>
     </address>
-    <!-- End byline -->
-    <amp-img src="{{site.url}}{% if page.cover_image %}{{ page.cover_image }}{% else %}{{ site.cover_image }}{% endif %}" width="1280" height="653" layout="responsive" alt="{{page.title}}" class="mb4 mx3"></amp-img>
-
   </header>
 
   <section class="post-content px3 mb4">
     <div>
         <blockquote class="ampstart-pullquote">
-                {{ page.short_description }}
+            {{ page.short_description }}
         </blockquote>
         <br>
         <section class="mb4">
