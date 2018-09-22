@@ -20,52 +20,53 @@ layout: default
   </header>
 
   <section class="post-content px3 mb4">
-        
-    <blockquote class="ampstart-pullquote">
-            {{ page.short_description }}
-    </blockquote>
-    <br>
-    <section class="mb4">
-        {{ content }}
-    </section>
-
-    <section>
-        <h2 class="h3 mb4">Recommended for you</h2>
-        <ul class="ampstart-related-section-items list-reset flex flex-wrap m0">
-            {% assign firstCategory = page.categories | first %}
-            {% assign relatedCount = 0 %}
-            {% for related in site.categories[firstCategory] %}
-                {% assign relatedCount = relatedCount | plus: 1 %}
-                <li class="col-12 sm-col-4 md-col-4 lg-col-4 pr2 py2">
-                    <a href="{{related.url}}" class="text-decoration-none">
-                    <figure class="ampstart-image-with-caption m0 relative mb4">
-                        <amp-img src="{{related.cover_image}}" alt="{{related.title}}" width="285" height="185" layout="responsive" class=""></amp-img>
-                    <figcaption class="h5 mt1 px3">
-                        {{related.title}}
-                    </figcaption>
-                    </figure>
-                    </a>
-                </li>
-                {% if relatedCount == 6 %}
-                    {% break %}
-                {% endif %}
-            {% endfor %}
-        </ul>
-    </section>
+    <div>
+        <blockquote class="ampstart-pullquote">
+                {{ page.short_description }}
+        </blockquote>
+        <br>
+        <section class="mb4">
+            {{ content }}
+        </section>
     
-    <section>
-      <h2 class="mb3">Categories</h2>
-        {% capture site_tags %}{% for tag in site.tags %}{{ tag | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
-        {% assign sortedTags = site_tags | split:',' | sort %}
-        <ul class="ampstart-related-section-items list-reset flex flex-wrap m0">
-        {% for tag in sortedTags %}
-        <li style="margin-bottom: 25px;border-bottom: none;">
-            <a href="/category/{{ tag | cgi_escape }}" class="ampstart-btn ampstart-btn-secondary" style="margin: 2px;text-transform: uppercase;">
-                {{tag}}
-            </a>
-        </li> 
-        {% endfor %}
-        </ul>
-    </section>
+        <section>
+            <h2 class="h3 mb4">Recommended for you</h2>
+            <ul class="ampstart-related-section-items list-reset flex flex-wrap m0">
+                {% assign firstCategory = page.categories | first %}
+                {% assign relatedCount = 0 %}
+                {% for related in site.categories[firstCategory] %}
+                    {% assign relatedCount = relatedCount | plus: 1 %}
+                    <li class="col-12 sm-col-4 md-col-4 lg-col-4 pr2 py2">
+                        <a href="{{related.url}}" class="text-decoration-none">
+                        <figure class="ampstart-image-with-caption m0 relative mb4">
+                            <amp-img src="{{related.cover_image}}" alt="{{related.title}}" width="285" height="185" layout="responsive" class=""></amp-img>
+                        <figcaption class="h5 mt1 px3">
+                            {{related.title}}
+                        </figcaption>
+                        </figure>
+                        </a>
+                    </li>
+                    {% if relatedCount == 6 %}
+                        {% break %}
+                    {% endif %}
+                {% endfor %}
+            </ul>
+        </section>
+        
+        <section>
+            <h2 class="mb3">Categories</h2>
+            {% capture site_tags %}{% for tag in site.tags %}{{ tag | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
+            {% assign sortedTags = site_tags | split:',' | sort %}
+            <ul class="ampstart-related-section-items list-reset flex flex-wrap m0">
+            {% for tag in sortedTags %}
+            <li style="margin-bottom: 25px;border-bottom: none;">
+                <a href="/category/{{ tag | cgi_escape }}" class="ampstart-btn ampstart-btn-secondary" style="margin: 2px;text-transform: uppercase;">
+                    {{tag}}
+                </a>
+            </li> 
+            {% endfor %}
+            </ul>
+        </section>
+    </div>
   </section>
 </article>
