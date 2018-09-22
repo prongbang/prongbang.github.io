@@ -15,7 +15,7 @@ layout: default
         </time>
     </address>
     <!-- End byline -->
-    <amp-img src="{{ page.cover_image }}" width="1280" height="653" layout="responsive" alt="{{page.title}}" class="mb4 mx3"></amp-img>
+    <amp-img src="{{site.url}}{% if page.cover_image %}{{ page.cover_image }}{% else %}{{ site.cover_image }}{% endif %}" width="1280" height="653" layout="responsive" alt="{{page.title}}" class="mb4 mx3"></amp-img>
 
   </header>
 
