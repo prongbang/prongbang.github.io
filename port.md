@@ -1,9 +1,9 @@
 ---
 layout: page
 title: Portfolio
-page: portfolio
-permalink: /portfolio
-site_nav_category: portfolio
+page: port
+permalink: /port
+site_nav_category: port
 is_site_nav_category: true
 site_nav_category_order: 400
 ---
