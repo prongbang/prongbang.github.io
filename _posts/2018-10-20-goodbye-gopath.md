@@ -21,7 +21,7 @@ author: "end try"
 $mkdir ~/Development/Web/himod && ~/Development/Web/himod
 {% endhighlight %}
 
-### สั่ง `unset GOPATH` ด้วยคำสั่งนี้ เพราะเราจะใช่ `go module` แทน
+### สั่ง `unset GOPATH` ด้วยคำสั่งนี้ เพราะเราจะใช้ `go module` แทน
 
 {% highlight shell %}
 $unset GOPATH
