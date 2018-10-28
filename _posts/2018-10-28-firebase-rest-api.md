@@ -212,6 +212,8 @@ curl -X DELETE 'https://[PROJECT_ID].firebaseio.com/users/endtry.json'
 null
 {% endhighlight %}
 
-<br><br>
+<br>
+**จริงๆเราสามารถใช้ Postman แทน curl ก็ได้นะแล้วแต่ถนัดเรยจ้า ๆ
+<br>
 สามารถดูข้อมูลเพิ่มเติมได้ที่ [https://firebase.google.com/docs/database/rest/start](https://firebase.google.com/docs/database/rest/start?hl=th)
 <br><br>
