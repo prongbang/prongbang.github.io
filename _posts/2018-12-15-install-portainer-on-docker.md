@@ -3,8 +3,8 @@ layout: post
 title:  "[Docker] อยากจัดการ Docker แบบ GUI ใช่มั้ย ใช้ Portainer สิรอไร"
 short_description: "หลาย ๆ คนอาจจะเคยเล่น Docker มาสักพักแล้วรู้สึกว่าตัวเองจำคำสั่ง Docker ไม่ค่อยได้ แต่ว่า Portainer ช่วยเราได้"
 date:   2018-12-15 19:14:19 +0700
-categories: docker
-tags: [docker]
+categories: [docker, portainer]
+tags: [docker, portainer]
 cover_image: /assets/images/docker/1.png
 author: "end try"
 ---
@@ -19,7 +19,7 @@ username: admin
 password: tryportainer
 {% endhighlight %}
 
-### ในที่นี้เราจะ Install ผ่าน docker-compose นะโดยให้สร้างโฟลเดอรืและไฟล์ตามนี้ภายใต้โฟลเดอร์ portainer
+### ในที่นี้เราจะ Install ผ่าน docker-compose นะโดยให้สร้างโฟลเดอร์และไฟล์ตามนี้ภายใต้โฟลเดอร์ portainer
 
 {% highlight shell %}
 portainer
@@ -28,7 +28,7 @@ portainer
     └── data
 {% endhighlight %}
 
-- docker-compose.yml
+- แล้วเขียนโค้ด config docker ใน docker-compose.yml ตามนนี้
 
 {% highlight yml %}
 version: '3.5'
