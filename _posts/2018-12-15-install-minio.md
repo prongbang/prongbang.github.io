@@ -70,7 +70,7 @@ docker-compose up -d
 <br>
 <br>
 
-เราสามารถสร้าง Bucket และ Upload file ขึ้น Minio ได้เลยโดยไม่ต้องเขียนโค้ดแม้แต่น้อย และถ้าอยาก Upload ด้วยโค้ดก็สามารถทำได้โดยใช้ Minio SDK ซึ่งรองรับหลายภาษา เช่น JavaScript, Java, Python, Golang, .NET อ่่านข้อมูลเพิ่มเติมได้ที่ [https://docs.minio.io/docs/golang-client-quickstart-guide.html](https://docs.minio.io/docs/golang-client-quickstart-guide.html)
+เราสามารถสร้าง Bucket และ Upload file ขึ้น Minio ได้เลยโดยไม่ต้องเขียนโค้ดแม้แต่น้อย และถ้าอยาก Upload ด้วยโค้ดก็สามารถทำได้โดยใช้ Minio SDK ซึ่งรองรับหลายภาษา เช่น JavaScript, Java, Python, Golang, .NET อ่านข้อมูลเพิ่มเติมได้ที่ [https://docs.minio.io/docs/golang-client-quickstart-guide.html](https://docs.minio.io/docs/golang-client-quickstart-guide.html)
 
 <br>
 
@@ -113,7 +113,7 @@ minio "github.com/minio/minio-go"
 - สร้างการเชื่อมต่อกับ Minio ก่อนประมาณนี้ ซึ่งให้เราใส่ `accessKey` และ `secretAccess` ให้เหมือนกันกับที่เราใส่ใน `docker-compose.yml`
 
 {% highlight go %}
-endpoint := "localhost:9001"
+endpoint := "localhost:9000"
 accessKeyID := "6DVY3Pkc4z"
 secretAccessKey := "FAAmZ0Evr7"
 useSSL := false
@@ -187,19 +187,18 @@ go run main.go
 {% highlight shell %}
 2018/12/23 21:07:49 Successfully created anim
 2018/12/23 21:07:49 Successfully uploaded minio.png of size 47030
-2018/12/23 21:07:49 http://localhost:9001/anim/minio.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=6DVY3Pkc4z%2F20181223%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20181223T140749Z&X-Amz-Expires=1000&X-Amz-SignedHeaders=host&X-Amz-Signature=e0e01c67adfc1da0ed9d5b88bd41bb300dcc731ff852e27ae62bf66c5d742a55
+2018/12/23 21:07:49 http://localhost:9000/anim/minio.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=6DVY3Pkc4z%2F20181223%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20181223T140749Z&X-Amz-Expires=1000&X-Amz-SignedHeaders=host&X-Amz-Signature=e0e01c67adfc1da0ed9d5b88bd41bb300dcc731ff852e27ae62bf66c5d742a55
 {% endhighlight %}
 
-แล้วลองเข้าไปที่ [http://127.0.0.1:9001/minio/anim/](http://127.0.0.1:9001/minio/anim/) ก็จะเห็นว่ามีรูปที่เรา Upload ขุ้นไปแล้ว
+แล้วลองเข้าไปที่ [http://127.0.0.1:9000/minio/anim/](http://127.0.0.1:9000/minio/anim/) ก็จะเห็นว่ามีรูปที่เรา Upload ขุ้นไปแล้ว
 
 <br>
-### Source code
+#### Source code
 
 - [https://github.com/prongbang/minio](https://github.com/prongbang/minio)
 
-### Reference
+#### Reference
 
-- [https://docs.minio.io/docs/golang-client-quickstart-guide.html](https://docs.minio.io/docs/golang-client-quickstart-guide.html)
+- [https://docs.minio.io/](https://docs.minio.io/)
 
-<br>
 <br>
