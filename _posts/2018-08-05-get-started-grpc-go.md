@@ -421,9 +421,6 @@ Request: Ping
 สรุปที่เขียนมาทั้งหมดก็เพื่อ output มีกี่บรรทัดนี่เอง ฮ่า ๆ และจะเห็นได้ว่า Service เรียกใช้งานข้าม Service ได้โดยใช้ gRPC ซึ่งถ้าโปรดัคของเราเน้นเรื่อง Preformance แล้วดันไปให้ Service คุยกันผ่าน RESTful ก็ค่อย ๆ เปลี่ยนมาใช้ gRPC แทนนะครับ ถ้าผิดพลาดอะไรก็แล้ว ๆ กันไปเนอะ ถ้ามีวิธีที่ดีกว่านี้ หรือวิธีทำที่ถูกต้องโปรดช่วยชี้แนะด้วยนะครับ ขอบคุณครับ (เด๊กน้อยกำลังหัดเล่น)
 
 <br>
-### Source code
-
-- [https://github.com/prongbang/grpc-labs](https://github.com/prongbang/grpc-labs)
 <br>
 
 ### Reference
