@@ -105,8 +105,60 @@
       }
     </style>
   </noscript>
-  <style amp-custom>
-    amp-img.cropped img {
+
+  <script custom-element="amp-carousel" src="https://cdn.ampproject.org/v0/amp-carousel-0.1.js" async></script>
+  <script custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js" async></script>
+  <script custom-element="amp-accordion" src="https://cdn.ampproject.org/v0/amp-accordion-0.1.js" async></script>
+  <script custom-element="amp-social-share" src="https://cdn.ampproject.org/v0/amp-social-share-0.1.js" async></script>
+  <script custom-element="amp-position-observer" src="https://cdn.ampproject.org/v0/amp-position-observer-0.1.js" async></script>
+  <script custom-element="amp-animation" src="https://cdn.ampproject.org/v0/amp-animation-0.1.js" async></script>
+
+  <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "LiveBlogPosting",
+      "url": "{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}",
+      "articleBody": "{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}",
+      "datePublished": "2016-09-08T23:04:28.24337",
+      "about": {
+        "@type": "Event",
+        "description": "This is my great live blog",
+        "startDate": "2016-07-23T13:00:00-07:00",
+        "endDate": "2016-07-23T15:00:00-07:00",
+        "name": "เดฟไปวันๆ",
+        "url": "{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}",
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "prongbang",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "{{ site.baseurl }}/assets/favicon.png",
+          "width": "512",
+          "height": "512"
+        }
+      },
+      "author": {
+        "@type": "Person",
+        "sameAs": "https://github.com/prongbang",
+        "name": "prongbang"
+      },
+      "image": {
+        "@type": "ImageObject",
+        "url": "{{site.baseurl}}{% if page.cover_image %}{{ page.cover_image }}{% else %}{{ site.cover_image }}{% endif %}",
+        "height": "1532",
+        "width": "2046"
+      },
+      "coverageStartTime": "2016-07-23T11:30:00-07:00",
+      "coverageEndTime": "2016-07-23T16:00:00-07:00",
+      "headline": "เดฟไปวันๆ",
+      "description": "This is my great live blog"
+    }
+  </script>
+
+  <style amp-custom="">
+
+amp-img.cropped img {
       object-fit: cover;
     }
 
@@ -166,8 +218,6 @@
         max-width: 100%;
         vertical-align: middle;
     }
-  </style>
-  <style amp-custom>
     .scrollToTop {
       color: #fafafa;
       font-size: 1.4em;
@@ -191,59 +241,7 @@
       width: 0px;
       height: 0px;
     }
-  </style>
 
-  <script custom-element="amp-carousel" src="https://cdn.ampproject.org/v0/amp-carousel-0.1.js" async></script>
-  <script custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js" async></script>
-  <script custom-element="amp-accordion" src="https://cdn.ampproject.org/v0/amp-accordion-0.1.js" async></script>
-  <script custom-element="amp-social-share" src="https://cdn.ampproject.org/v0/amp-social-share-0.1.js" async></script>
-  <script custom-element="amp-position-observer" src="https://cdn.ampproject.org/v0/amp-position-observer-0.1.js" async></script>
-  <script custom-element="amp-animation" src="https://cdn.ampproject.org/v0/amp-animation-0.1.js" async></script>
-
-  <script type="application/ld+json">
-    {
-      "@context": "http://schema.org",
-      "@type": "LiveBlogPosting",
-      "url": "{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}",
-      "articleBody": "{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}",
-      "datePublished": "2016-09-08T23:04:28.24337",
-      "about": {
-        "@type": "Event",
-        "description": "This is my great live blog",
-        "startDate": "2016-07-23T13:00:00-07:00",
-        "endDate": "2016-07-23T15:00:00-07:00",
-        "name": "เดฟไปวันๆ",
-        "url": "{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}",
-      },
-      "publisher": {
-        "@type": "Organization",
-        "name": "prongbang",
-        "logo": {
-          "@type": "ImageObject",
-          "url": "{{ site.baseurl }}/assets/favicon.png",
-          "width": "512",
-          "height": "512"
-        }
-      },
-      "author": {
-        "@type": "Person",
-        "sameAs": "https://github.com/prongbang",
-        "name": "prongbang"
-      },
-      "image": {
-        "@type": "ImageObject",
-        "url": "{{site.baseurl}}{% if page.cover_image %}{{ page.cover_image }}{% else %}{{ site.cover_image }}{% endif %}",
-        "height": "1532",
-        "width": "2046"
-      },
-      "coverageStartTime": "2016-07-23T11:30:00-07:00",
-      "coverageEndTime": "2016-07-23T16:00:00-07:00",
-      "headline": "เดฟไปวันๆ",
-      "description": "This is my great live blog"
-    }
-  </script>
-
-  <style amp-custom="">
     /*! Bassplate | MIT License | http://github.com/basscss/bassplate */
 
     /*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
