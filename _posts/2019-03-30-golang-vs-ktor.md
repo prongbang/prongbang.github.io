@@ -2,7 +2,7 @@
 layout: post
 title:  "[Golang] มาดูว่าเขียน API ด้วย Golang ที่ Deploy บน Docker ว่าจะต้องใช้ทรัพยากรเครื่องไปเท่าไร เมื่อเทียบกับ Ktor ที่เขียนด้วย Kotlin"
 short_description: "เพื่อเป็นทางเลือกให้กับใครหลาย ๆ คนตัดสินใจได้ง่ายขึ้น ว่าถ้างบมีน้อยควรเก็บอะไรไว้เป็นตัวเลือกบ้าง"
-date:   2019-03-30_ 20:53:00 +0700
+date:   2019-03-30 20:53:00 +0700
 categories: golang
 tags: [golang, kotlin]
 cover_image: /assets/images/golang/8.png
