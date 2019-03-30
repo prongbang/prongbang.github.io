@@ -4,7 +4,7 @@ title:  "[Golang] มา Deploy Golang บน Heroku กันเถอะ"
 short_description: "ของฟรีก็มีในโลกนะ (ที่จริงก็มีมานานแล้ว แต่เพิ่งเอามาเขียน T^T)"
 date:   2019-03-23 19:27:00 +0700
 categories: golang
-tags: [golang]
+tags: [golang, heroku]
 cover_image: /assets/images/golang/7.png
 author: "end try"
 ---
