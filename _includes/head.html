@@ -34,10 +34,10 @@
   <link rel="shortcut icon" type="image/png" href="{{ site.url }}/assets/favicon.png" />
   <link rel="stylesheet" id="bulma" href="{{site.baseurl}}/assets/css/highlight.css" />
   <!--[if lte IE 8]>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.2/html5shiv.js"></script>
+    <script src="{{site.baseurl}}/assets/js/html5shiv/html5shiv.js"></script>
   <![endif]-->
     
-  <script async="" src="https://cdn.ampproject.org/v0.js"></script>
+  <script async="" src="{{site.baseurl}}/assets/js/amp/v0.js"></script>
   <style amp-boilerplate="">
     body {
       -webkit-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
@@ -106,12 +106,12 @@
     </style>
   </noscript>
 
-  <script custom-element="amp-carousel" src="https://cdn.ampproject.org/v0/amp-carousel-0.1.js" async></script>
-  <script custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js" async></script>
-  <script custom-element="amp-accordion" src="https://cdn.ampproject.org/v0/amp-accordion-0.1.js" async></script>
-  <script custom-element="amp-social-share" src="https://cdn.ampproject.org/v0/amp-social-share-0.1.js" async></script>
-  <script custom-element="amp-position-observer" src="https://cdn.ampproject.org/v0/amp-position-observer-0.1.js" async></script>
-  <script custom-element="amp-animation" src="https://cdn.ampproject.org/v0/amp-animation-0.1.js" async></script>
+  <script custom-element="amp-carousel" src="{{site.baseurl}}/assets/js/amp/amp-carousel-0.1.js" async></script>
+  <script custom-element="amp-sidebar" src="{{site.baseurl}}/assets/js/amp/amp-sidebar-0.1.js" async></script>
+  <script custom-element="amp-accordion" src="{{site.baseurl}}/assets/js/amp/amp-accordion-0.1.js" async></script>
+  <script custom-element="amp-social-share" src="{{site.baseurl}}/assets/js/amp/amp-social-share-0.1.js" async></script>
+  <script custom-element="amp-position-observer" src="{{site.baseurl}}/assets/js/amp/amp-position-observer-0.1.js" async></script>
+  <script custom-element="amp-animation" src="{{site.baseurl}}/assets/js/amp/amp-animation-0.1.js" async></script>
 
   <script type="application/ld+json">
     {
@@ -2425,5 +2425,17 @@ amp-img.cropped img {
   </script>
   <script async custom-element="amp-auto-ads"
     src="https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js">
+  </script>
+  <script src="{{site.baseurl}}/assets/js/cache-polyfill.js"></script>
+  <script>
+      if('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('/assets/js/sw.js', { scope: '/' })
+          .then(function(registration) {
+                console.log('Service Worker Registered');
+          });
+        navigator.serviceWorker.ready.then(function(registration) {
+           console.log('Service Worker Ready');
+        });
+      }
   </script>
 </head>
