@@ -17,4 +17,5 @@ site_nav_category_order: 300
 - Java Developer / Android Developer (Marco Technology Co. Ltd) August 2015 - February 2017
 - Android Developer (Touch Technologies Co. Ltd.) February 2017 - June 2018
 - Android Developer [Contract] (Brink's Global Technology Limited.) June 2018 - December 2018
-- React / React Native Developer, Golang Developer, Android Developer, Flutter Developer (Freelance) Janury 2017 - Present
+- React / React Native Developer, Golang Developer, Android Developer, Flutter Developer, Web Developer (Freelance) Janury 2017 - Present
+- Android Developer (Ayudhya Capital Services Co., Ltd.) December 2018 - Present
