@@ -37,7 +37,7 @@ wire-todos
 ### จากนั้นให้เราลง wire โดยรันคำสั่งตามนี้
 
 {% highlight bash %}
-$ go get github.com/google/wire/cmd/wire
+$ go get -u github.com/google/wire/cmd/wire
 {% endhighlight %}
 
 ### จากนั้นก็มาเริ่มเขียน code แบบแต่ละไฟล์ประมาณนี้
