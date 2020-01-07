@@ -7,14 +7,39 @@
 
       for (var i = 0; i < results.length; i++) {
         var item = store[results[i].ref];
-        appendString += '<li><img src="'+ item.cover_image +'"/><a href="' + item.url + '"><h3>' + item.title + "</h3></a>";
-        appendString += "<p>" + item.short_description + "</p></li><br/>";
-      }
 
+        appendString += `
+          <div items onclick="window.location = '${item.url}';" style="cursor: pointer;">
+            <div data-sort-time="20180505100727">
+              <div class="ampstart-card m2 blog">
+                <a href="${item.url}">
+                  <amp-img src="${item.cover_image}" layout="responsive" width="1280" height="600"></amp-img>
+                </a>
+                <h3 class="title">${item.title}</h3>
+                <p class="date">${item.date}</p>
+                <p class="text">${item.short_description}</p>
+                <p>&nbsp;</p> 
+              </div>
+            </div>
+          </div>`;
+      }
       searchResults.innerHTML = appendString;
     } else {
-      searchResults.innerHTML = "<li>No results found</li>";
+      searchResults.innerHTML = cardNotResult();
     }
+  }
+
+  function cardNotResult() {
+    return `<div items>
+        <div data-sort-time="20180505100727">
+          <div class="ampstart-card m2 blog">
+            <br/>
+            <h3 class="title">No results found</h3>
+            <p>&nbsp;</p> 
+            <br/>
+          </div>
+        </div>
+      </div>`;
   }
 
   function getQueryVariable(variable) {
@@ -44,6 +69,7 @@
       this.field("category");
       this.field("short_description");
       this.field("cover_image");
+      this.field("date");
     });
 
     for (var key in window.store) {
@@ -54,7 +80,8 @@
         author: window.store[key].author,
         category: window.store[key].category,
         cover_image: window.store[key].cover_image,
-        short_description: window.store[key].short_description
+        short_description: window.store[key].short_description,
+        date: window.store[key].date,
       });
 
       var results = idx.search(searchTerm); // Get lunr to perform a search
