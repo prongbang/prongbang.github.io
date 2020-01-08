@@ -56,7 +56,10 @@ promotion   // ชื่อ feature
 │           ├── domain
 │           │   └── promotion_usecase.go
 │           ├── gateway
-│           │   └── promotion_gateway.go
+│			│	├── handler
+│           │   │   └── promotion_handler.go
+│			│	└── route
+│           │       └── promotion_route.go
 │           └── model
 │               └── promotion.go
 └── main.go
@@ -345,7 +348,7 @@ func (h *promotionHandler) Get(c echo.Context) error {
 - สร้าง Gateway ในส่วนของ Route จะเป็นส่วนที่ใช้กำหนดเส้นทางของ API ว่าจะให้มีอะไรบ้าง ซึ่งหลักการสร้างจะเหมือน ๆ กันกับการสร้าง DataSource จะต่างกันที่มีการรับค่า PromotionHandler ที่เป็น interface ขึ้นอยู่กับการเขียนของแต่ละคน โดยมีโค้ดรวม ๆ ประมาณนี้
 
 <br>
-ตั้งชื่อไฟล์ว่า `promotion_handler.go`
+ตั้งชื่อไฟล์ว่า `promotion_route.go`
 
 {% highlight golang %}
 // PromotionRoute is the interface
