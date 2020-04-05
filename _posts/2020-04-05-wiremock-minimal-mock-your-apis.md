@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "[Golang] มาลองเล่น Wiremock ที่เขียนด้วย Golang สำหรับทำ Mock API โดยเขียนแค่ YAML และ JSON แค่นั้นเอง"
+title:  "[Golang] มาลองใช้ Wiremock ที่เขียนด้วย Golang สำหรับทำ Mock API โดยเขียนแค่ YAML และ JSON แค่นั้นเอง"
 short_description: "เคยเจอกับตัวกันบ้างมั้ยว่ากว่า API จะทำเสร็จก็กลาง Sprint แล้ว ฉะนั้นเรามาใช้ Wiremock เพื่อให้เราสามารถ Dev รอ API ได้กันเถอะ ๆ"
 date:   2020-04-05 20:23:00 +0700
 categories: [golang]
@@ -9,10 +9,10 @@ cover_image: /assets/images/golang/10.png
 author: "end try"
 ---
 
-### Wiremock มีให้ใช้งาน 2 แบบ คือ Docker และ Golang Library
+### Wiremock มีให้ใช้งาน 2 แบบ คือ Docker และ Golang library
 
 <br>
-ก่อนที่จะมาดูว่า Docker และ Golang Library งานกันยังไงมาดูการ setup โปรเจคกันก่อนว่าต้องทำอะไรบ้าง 
+ก่อนที่จะมาดูว่า Docker และ Golang library งานกันยังไงมาดูการ setup โปรเจคกันก่อนว่าต้องทำอะไรบ้าง 
 <br>
 <br>
 
@@ -323,6 +323,6 @@ $ curl http://localhost:8000/api/v1/user/1
 ]
 {% endhighlight %}
 
-และวิธี่ใช้งาน Wiremock แบบคร่าว ๆ ก็ประมาณนี้ สามารถเข้าไปดู Source Code ได้ที่นี่ [wiremock-example](https://github.com/prongbang/wiremock-example) ถ้าตกหล่นอะไรขออภัยณที่นั่นด้วย
+และวิธีใช้งาน Wiremock แบบคร่าว ๆ ก็ประมาณนี้ สามารถเข้าไปดู Source Code ได้ที่นี่ [wiremock-example](https://github.com/prongbang/wiremock-example) ถ้าตกหล่นอะไรขออภัยณที่นั่นด้วย
 <br>
 <br>
