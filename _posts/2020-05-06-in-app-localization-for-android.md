@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "[Android] เขียนแอพ Android ให้รองรับการเปลี่ยนภาษาภายในแอพ (Multiple Language Support in Android)"
-short_description: "สอนใช้ Multiple Language Library แทนการเขียนโค้ดจัดการการเปลี่ยนภาษาหลาย ๆ ภาษา"
+short_description: "สอนใช้ Multiple Language Library แทนการเขียนโค้ดจัดการการเปลี่ยนภาษาหลาย ๆ ภาษาเอง"
 date:   2020-05-06 19:00:00 +0700
 categories: [android]
 tags: [android]
