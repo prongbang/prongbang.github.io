@@ -169,7 +169,7 @@ $ make cover
 
 <br>
 
-ส่วนการ test ส่วนอื่น ๆ สามารถดาวน์โหลด source code ได้ที่นี่ [https://github.com/prongbang/go-testcov](https://github.com/prongbang/go-testcov) หวังว่าอาจจะเป็นแนวทางให้กับ Gopher ได้บ้าง ผิดถูกยังไงขออภัย ณ ที่นั่นด้วย และสามารถอ่านข้อมูลเพิ่มเติมได้ที่ [https://blog.golang.org/cover](https://blog.golang.org/cover)
+ส่วนการ test ส่วนอื่น ๆ สามารถดาวน์โหลด [Source Code](http://raboninco.com/XBni) ได้ที่นี่ หวังว่าอาจจะเป็นแนวทางให้กับ Gopher ได้บ้าง ผิดถูกยังไงขออภัย ณ ที่นั่นด้วย และสามารถอ่านข้อมูลเพิ่มเติมได้ที่ [https://blog.golang.org/cover](https://blog.golang.org/cover)
 
 <br>
 <br>

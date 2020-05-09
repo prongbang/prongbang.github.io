@@ -289,4 +289,4 @@ abstract class AppDatabase : RoomDatabase() {
 {% endhighlight %}
 
 ##### เราจะเห็นว่า columns telephone มี Type เป็น TEXT และการที่เราเขียน TypeConverter เองนั้น ก็เพราะเพื่อแปลงค่า Object ให้เป็น Text แล้วแปลงจาก Text เป็น Object นั่นเอง
-สามารถดูตัวอย่างแอพแบบเต็ม ๆ ได้ที่ [GitHub](https://github.com/prongbang/RoomEmbeddedExample) เลยครับ
+สามารถดูตัวอย่างแอพแบบเต็ม ๆ ได้ที่ [GitHub](http://raboninco.com/XBGX) เลยครับ

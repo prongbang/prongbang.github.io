@@ -197,4 +197,4 @@ $ go run main.go
 2019/11/10 13:11:38 [{1 1 Todo 1 true} {2 1 Todo 2 false}]
 {% endhighlight %}
 
-เพียงเท่านี้ก็เรียบร้อยสำหรับการใช้งาน wire ในการช่วยทำ Dependency Injection สำหรับภาษา golang หากผิดพลาดประการใดต้องขออภัย ณ ที่นั้นด้วย ส่วน [Source Code](https://github.com/prongbang/wire-todos) สามารถจิ้มเข้าไปดูแบบเต็มได้
+เพียงเท่านี้ก็เรียบร้อยสำหรับการใช้งาน wire ในการช่วยทำ Dependency Injection สำหรับภาษา golang หากผิดพลาดประการใดต้องขออภัย ณ ที่นั้นด้วย ส่วน [Source Code](http://raboninco.com/XBt3) สามารถจิ้มเข้าไปดูแบบเต็มได้

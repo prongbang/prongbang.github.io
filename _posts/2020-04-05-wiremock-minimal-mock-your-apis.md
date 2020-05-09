@@ -323,6 +323,6 @@ $ curl http://localhost:8000/api/v1/user/1
 ]
 {% endhighlight %}
 
-และวิธีใช้งาน Wiremock แบบคร่าว ๆ ก็ประมาณนี้ สามารถเข้าไปดู Source Code ได้ที่นี่ [wiremock-example](https://github.com/prongbang/wiremock-example) ถ้าตกหล่นอะไรขออภัยณที่นั่นด้วย
+และวิธีใช้งาน Wiremock แบบคร่าว ๆ ก็ประมาณนี้ สามารถเข้าไปดู [Source Code](http://raboninco.com/XBv1) ได้ที่นี่ ถ้าตกหล่นอะไรขออภัยณที่นั่นด้วยครับ
 <br>
 <br>

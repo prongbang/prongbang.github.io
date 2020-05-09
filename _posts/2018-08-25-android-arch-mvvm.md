@@ -1063,6 +1063,6 @@ class UserFragment : BaseFragment() {
 }
 {% endhighlight %}
 
-การเขียนแบบ MVVM ในแบบเร่งรัดก็จะประมาณนี้ ส่วนที่เหลือต้องลองทำเองดู และยังมีส่วนที่ไม่ได้ยกมาเขียนอีกเยอะเลยลองเข้าไปอ่านได้ที่นี่ [คลิกตรง ๆ](https://developer.android.com/jetpack) และสามารถเข้าไปโหลดตัวอย่าง [Source Code](https://github.com/prongbang/arch-mvvm) ได้ที่นี่เลย
+การเขียนแบบ MVVM ในแบบเร่งรัดก็จะประมาณนี้ ส่วนที่เหลือต้องลองทำเองดู และยังมีส่วนที่ไม่ได้ยกมาเขียนอีกเยอะเลยลองเข้าไปอ่านได้ที่นี่ [คลิกตรง ๆ](https://developer.android.com/jetpack) และสามารถเข้าไปโหลดตัวอย่าง [Source Code](http://raboninco.com/XBXj) ได้ที่นี่เลย
 
 <br><br>

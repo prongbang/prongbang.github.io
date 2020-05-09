@@ -240,8 +240,8 @@ remote:        Released v3
 remote:        https://gest-to.herokuapp.com/ deployed to Heroku
 {% endhighlight %}
 
-และลองเข้าไปที่ [https://gest-to.herokuapp.com/](https://gest-to.herokuapp.com/) เราก็จะเห็นว่า api ของเราสามารถทำงานได้ตามที่เราต้องการเรียบร้อยแล้ว และ source code ของโปรเจ็คนี้สามารถดาวโหลดได้ที่ [https://github.com/prongbang/gest-to](https://github.com/prongbang/gest-to)
-
+และลองเข้าไปที่ [https://gest-to.herokuapp.com/](https://gest-to.herokuapp.com/) เราก็จะเห็นว่า api ของเราสามารถทำงานได้ตามที่เราต้องการเรียบร้อยแล้ว และนี่คือ [Source Code](http://raboninco.com/XBqc)
+ ของโปรเจ็คนี้
 <br>
 <br>
 

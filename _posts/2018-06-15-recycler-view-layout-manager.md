@@ -586,6 +586,6 @@ StaggeredGridLayoutManager(2, StaggeredGridLayoutManager.VERTICAL)
 StaggeredGridLayoutManager(2, StaggeredGridLayoutManager.HORIZONTAL)
 {% endhighlight %}
 
-### เขียนมาซะเยอะเลย ถ้ามองไม่เห็นภาพลองเข้าไปโหลด [Source Code](https://github.com/prongbang/RecyclerViewLayoutManager) มาเล่นดูได้เลย
+### เขียนมาซะเยอะเลย ถ้ามองไม่เห็นภาพลองเข้าไปโหลด [Source Code](http://raboninco.com/XBOl) มาเล่นดูได้เลย
 
 <br>

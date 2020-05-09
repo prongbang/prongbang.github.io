@@ -515,4 +515,4 @@ android:animateLayoutChanges="true"
 </LinearLayout>
 {% endhighlight %}
 
-สามารถดูโค้ดแบบเต็ม ๆ ได้ที่ [CustomHamburgerMenu](https://github.com/prongbang/CustomHamburgerMenu)
+สามารถดูโค้ดแบบเต็ม ๆ ได้ที่ [CustomHamburgerMenu](http://raboninco.com/XBJ4)

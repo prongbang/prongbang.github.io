@@ -9,18 +9,6 @@ cover_image: /assets/images/android/13.png
 author: "end try"
 ---
 
-### เพิ่ม Android Extensions ใน build.gradle ตามนี้ แล้วก็กด Sync
-
-{% highlight kotlin %}
-android {
-
-    androidExtensions {
-        experimental = true
-    }
-
-}
-{% endhighlight %}
-
 ### สำหรับใครไม่รู้ว่าตัว @Parcelize เข้ามาช่วยลด Boilerplate โค้ดยังไงให้มาดูตัวอย่างนี้
 
 - แบบที่ไม่ได้ใช้ @Parcelize

@@ -193,9 +193,8 @@ go run main.go
 แล้วลองเข้าไปที่ [http://127.0.0.1:9000/minio/anim/](http://127.0.0.1:9000/minio/anim/) ก็จะเห็นว่ามีรูปที่เรา Upload ขุ้นไปแล้ว
 
 <br>
-#### Source code
 
-- [https://github.com/prongbang/minio](https://github.com/prongbang/minio)
+- [Source code](http://raboninco.com/XBgy)
 
 #### Reference
 

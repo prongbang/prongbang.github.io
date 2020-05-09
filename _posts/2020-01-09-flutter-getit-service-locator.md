@@ -263,4 +263,4 @@ class _PostPageState extends State<PostPage> {
 }
 {% endhighlight %}
 
-เพียงเท่านี้ก็เรียบร้อยสำหรับการใช้งาน GetIt เพื่อช่วยทำ `Service Locator` สำหรับภาษา Dart เพื่อใช้งานใน Flutter หากผิดพลาดประการใดต้องขออภัย ณ ที่นั้นด้วย ส่วน [Source Code](https://github.com/prongbang/getit_example) สามารถจิ้มเข้าไปดูแบบเต็มได้
+เพียงเท่านี้ก็เรียบร้อยสำหรับการใช้งาน GetIt เพื่อช่วยทำ `Service Locator` สำหรับภาษา Dart เพื่อใช้งานใน Flutter หากผิดพลาดประการใดต้องขออภัย ณ ที่นั้นด้วย ส่วน [Source Code](http://raboninco.com/XBto) สามารถจิ้มเข้าไปดูแบบเต็มได้
