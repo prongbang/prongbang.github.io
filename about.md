@@ -8,7 +8,7 @@ is_site_nav_category: true
 site_nav_category_order: 300
 ---
 
-<img src="/assets/end-try.png"/>
+<img src="/assets/end-try.png" alt="เดฟไปวันๆ"/>
 
 #### Education
 - 2011 - 2014 Bachelor's Degree, Bachelor of Technology in Information Technology King Mongkut's University of Technology North Bangkok 
