@@ -13,7 +13,7 @@
             <div data-sort-time="20180505100727">
               <div class="ampstart-card m2 blog">
                 <a href="${item.url}">
-                  <amp-img src="${item.cover_image}" layout="responsive" width="1280" height="600"></amp-img>
+                  <amp-img src="${item.cover_image}" alt="${item.title}" layout="responsive" width="1280" height="600"></amp-img>
                 </a>
                 <h3 class="title">${item.title}</h3>
                 <p class="date">${item.date}</p>
