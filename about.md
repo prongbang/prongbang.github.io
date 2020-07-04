@@ -19,3 +19,4 @@ site_nav_category_order: 300
 - Android Developer [Contract] (Brink's Global Technology Limited.) June 2018 - December 2018
 - React / React Native Developer, Golang Developer, Android Developer, Flutter Developer, Web Developer (Freelance) Janury 2017 - Present
 - Android Developer (Ayudhya Capital Services Co., Ltd.) December 2018 - Present
+- Co-Founder (Innotech Development Co., Ltd.) July 2020 - Present
