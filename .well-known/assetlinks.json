@@ -1,0 +1,14 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.prongbang.devconf",
+      "sha256_cert_fingerprints": [
+        "45:2F:B0:14:8C:2E:0B:2A:93:18:C9:01:54:7E:70:10:44:BE:37:1D:39:50:DA:B4:EB:1B:02:C8:7F:E3:21:DF"
+      ]
+    }
+  }
+]
