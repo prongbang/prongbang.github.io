@@ -25,7 +25,12 @@ pre {
     padding: 24px;
     white-space: pre;
     white-space: pre-wrap;
-    word-wrap: break-word
+    word-wrap: break-word;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
 }
 
 pre code {
