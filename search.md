@@ -5,10 +5,12 @@ layout: search
   <table style="width: 100%; margin-top:2rem;">
     <tr>
       <td style="width: 100%;">
-        <input id="search-box" style="width: 100%;" placeholder="Search..." type="text" class="search-box" name="query">
-      </td>
-      <td>
-        <button class="-tb" type="submit">Search</button >
+        <div class="ampstart-input inline-block relative m0 p0 mb3 ">
+          <input type="text" value="" name="query" id="search-box" class="block border-none p0 m0" placeholder="Search">
+          <label for="search-box" class="absolute top-0 right-0 bottom-0 left-0" aria-hidden="true">
+            Search
+          </label>
+        </div>
       </td>
     </tr>
   </table>
