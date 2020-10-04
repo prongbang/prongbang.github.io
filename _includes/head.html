@@ -2490,15 +2490,4 @@ amp-img.cropped img {
   <script src="{{site.baseurl}}/assets/js/pwabuilder-sw-register.js"></script>
   <script src="{{site.baseurl}}/assets/js/pwabuilder-sw-register.js"></script>
   <script src="{{site.baseurl}}/assets/js/pwabuilder-sw.js"></script>
-  <script>
-      if('serviceWorker' in navigator) {
-        navigator.serviceWorker.register('/assets/js/sw.js', { scope: '/' })
-          .then(function(registration) {
-                console.log('Service Worker Registered');
-          });
-        navigator.serviceWorker.ready.then(function(registration) {
-           console.log('Service Worker Ready');
-        });
-      }
-  </script>
 </head>
