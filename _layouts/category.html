@@ -8,7 +8,7 @@ layout: page
             <div data-sort-time="20180505100727">
                 <div class="ampstart-card m2 blog">
                     <a href="{{ post.url | absolute_url }}">
-                        <amp-img src="{{post.cover_image}}" alt="{{post.title}}" width="1280" height="553" layout="responsive" alt="{{post.title}}" class="mb1"></amp-img>
+                        <amp-img data-hero src="{{post.cover_image}}" alt="{{post.title}}" width="1280" height="553" layout="responsive" alt="{{post.title}}" class="mb1"></amp-img>
                     </a>        
                     <h3 class="title">{{ post.title }}</h3> 
                     <p class="date">{{ post.date | date: date_format }}</p>

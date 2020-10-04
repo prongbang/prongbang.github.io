@@ -6,7 +6,7 @@ layout: default
     <br>
     
     <!-- End byline -->
-    <amp-img src="{{site.url}}{% if page.cover_image %}{{ page.cover_image }}{% else %}{{ site.cover_image }}{% endif %}" width="1280" height="653" layout="responsive" alt="{{page.title}}" class="mb4 mx3"></amp-img>
+    <amp-img data-hero src="{{site.url}}{% if page.cover_image %}{{ page.cover_image }}{% else %}{{ site.cover_image }}{% endif %}" width="1280" height="653" layout="responsive" alt="{{page.title}}" class="mb4 mx3"></amp-img>
     
     <h2 class="mb1 px3">{{ page.title | escape }}</h1>
 
@@ -32,7 +32,7 @@ layout: default
         </section>
         
         <section class="mb4">
-            <amp-img style="border-radius: 100px;" class="ampstart-byline-photo mr3 left" src="/assets/images/profile.png" alt="เดฟไปวันๆ" layout="fixed" height="60" width="60"></amp-img>
+            <amp-img data-hero style="border-radius: 100px;" class="ampstart-byline-photo mr3 left" src="/assets/images/profile.png" alt="เดฟไปวันๆ" layout="fixed" height="60" width="60"></amp-img>
             <a style="text-decoration: none;" class="ampstart-byline-pubdate block bold my1" href="https://fb.me/async.true" role="author">เดฟไปวันๆ</a>
             <p style="margin-top:-6px;font-size: 14px;">Full Stack Developer (Android, IOS, Flutter, React, Vue, Golang, Java, Kotlin, Node, PHP, Docker, Etc.)</p>
             <p style="font-size: 12px;;">1 August 2015 - Present</p>
@@ -48,7 +48,7 @@ layout: default
                     <li class="col-12 sm-col-4 md-col-4 lg-col-4 pr2 py2">
                         <a href="{{related.url}}" class="text-decoration-none">
                         <figure class="ampstart-image-with-caption m0 relative mb4">
-                            <amp-img src="{{related.cover_image}}" alt="{{related.title}}" width="285" height="185" layout="responsive" class=""></amp-img>
+                            <amp-img data-hero src="{{related.cover_image}}" alt="{{related.title}}" width="285" height="185" layout="responsive" class=""></amp-img>
                         <figcaption class="h5 mt1 px3">
                             {{related.title}}
                         </figcaption>
