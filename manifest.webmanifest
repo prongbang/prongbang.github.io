@@ -1,0 +1,36 @@
+{
+    "short_name": "เดฟไปวันๆ",
+    "name": "เดฟไปวันๆ",
+    "icons": [
+        {
+            "src": "https://prongbang.github.io/assets/launcher/icons-48.png",
+            "type": "image/png",
+            "sizes": "48x48"
+        },
+        {
+            "src": "https://prongbang.github.io/assets/launcher/icons-96.png",
+            "type": "image/png",
+            "sizes": "96x96"
+        },
+        {
+            "src": "https://prongbang.github.io/assets/launcher/icons-192.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "https://prongbang.github.io/assets/launcher/icons-512.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+    ],
+    "start_url": "/",
+    "theme_color": "#1D6EBC",
+    "background_color": "#ffffff",
+    "url": "https://prongbang.github.io",
+    "lang": "English",
+    "screenshots": [],
+    "display": "minimal-ui",
+    "orientation": "portrait",
+    "scope": "/",
+    "description": "เดฟไปวันๆ - บล็อคของคนพูดน้อย"
+  }

@@ -3,22 +3,27 @@
   "name": "เดฟไปวันๆ",
   "icons": [
       {
-          "src": "https://prongbang.github.io/assets/launcher/launcher-icon-1x.png",
+          "src": "https://prongbang.github.io/assets/launcher/icons-48.png",
           "type": "image/png",
           "sizes": "48x48"
       },
       {
-          "src": "https://prongbang.github.io/assets/launcher/launcher-icon-2x.png",
+          "src": "https://prongbang.github.io/assets/launcher/icons-96.png",
           "type": "image/png",
           "sizes": "96x96"
       },
       {
-          "src": "https://prongbang.github.io/assets/launcher/launcher-icon-4x.png",
+          "src": "https://prongbang.github.io/assets/launcher/icons-192.png",
           "type": "image/png",
           "sizes": "192x192"
+      },
+      {
+          "src": "https://prongbang.github.io/assets/launcher/icons-512.png",
+          "type": "image/png",
+          "sizes": "512x512"
       }
   ],
-  "start_url": "/",
+  "start_url": "https://prongbang.github.io/index.html",
   "theme_color": "#1D6EBC",
   "background_color": "#ffffff",
   "url": "https://prongbang.github.io",
