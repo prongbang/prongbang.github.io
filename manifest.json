@@ -1,24 +1,31 @@
 {
-    "short_name": "END TRY",
-    "name": "END TRY BLOG",
-    "icons": [
+  "short_name": "เดฟไปวันๆ",
+  "name": "เดฟไปวันๆ",
+  "icons": [
       {
-        "src": "/assets/launcher/launcher-icon-1x.png",
-        "type": "image/png",
-        "sizes": "48x48"
+          "src": "https://prongbang.github.io/assets/launcher/launcher-icon-1x.png",
+          "type": "image/png",
+          "sizes": "48x48"
       },
       {
-        "src": "/assets/launcher/launcher-icon-2x.png",
-        "type": "image/png",
-        "sizes": "96x96"
+          "src": "https://prongbang.github.io/assets/launcher/launcher-icon-2x.png",
+          "type": "image/png",
+          "sizes": "96x96"
       },
       {
-        "src": "/assets/launcher/launcher-icon-4x.png",
-        "type": "image/png",
-        "sizes": "192x192"
+          "src": "https://prongbang.github.io/assets/launcher/launcher-icon-4x.png",
+          "type": "image/png",
+          "sizes": "192x192"
       }
-    ],
-    "start_url": "index.html",
-    "theme_color": "#ffffff",
-    "background_color": "#ffffff"
-  }
+  ],
+  "start_url": "https://prongbang.github.io/index.html",
+  "theme_color": "#ffffff",
+  "background_color": "#ffffff",
+  "url": "https://prongbang.github.io",
+  "lang": "English",
+  "screenshots": [],
+  "display": "fullscreen",
+  "orientation": "portrait",
+  "scope": "https://prongbang.github.io/",
+  "description": "เดฟไปวันๆ - บล็อคของคนพูดน้อย"
+}
