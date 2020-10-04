@@ -2489,5 +2489,10 @@ amp-img.cropped img {
   <script src="{{site.baseurl}}/assets/js/cache-polyfill.js"></script>
   <script src="{{site.baseurl}}/assets/js/pwabuilder-sw-register.js"></script>
   <script src="{{site.baseurl}}/assets/js/pwabuilder-sw-register.js"></script>
+  <script type="module">
+    import 'https://cdn.jsdelivr.net/npm/@pwabuilder/pwaupdate';
+    const el = document.createElement('pwa-update');
+    document.body.appendChild(el);
+  </script>
   <script src="{{site.baseurl}}/assets/js/pwabuilder-sw.js" type="module"></script>
 </head>
