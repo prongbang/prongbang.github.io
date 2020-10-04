@@ -26,6 +26,6 @@
   "screenshots": [],
   "display": "fullscreen",
   "orientation": "portrait",
-  "scope": "https://prongbang.github.io/assets/js/",
+  "scope": "/",
   "description": "เดฟไปวันๆ - บล็อคของคนพูดน้อย"
 }
