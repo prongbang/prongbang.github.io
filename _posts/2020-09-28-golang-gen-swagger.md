@@ -138,7 +138,7 @@ $ go run main.go
 
 ### Source Code
 
-[https://github.com/prongbang/goclean](https://github.com/prongbang/goclean)
+[Click Me](https://botemoda.com/2VcR)
 
 <br>
 

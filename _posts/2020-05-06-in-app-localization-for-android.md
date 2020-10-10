@@ -126,6 +126,6 @@ override fun onConfigurationChanged(newConfig: Configuration) {
     android:text="@string/hello_world" />
 {% endhighlight %}
 
-การใช้งานก็ประมาณนี้สามารถเข้ามาอ่านเพิ่มเติมได้ที่นี่ [Localization Library for Android](http://raboninco.com/XBxt) ถ้ามี Bug หรืออยาก improve อะไร merge request มาได้นะครับ
+การใช้งานก็ประมาณนี้สามารถเข้ามาอ่านเพิ่มเติมได้ที่นี่ [Localization Library for Android](https://raboninco.com/XBxt) ถ้ามี Bug หรืออยาก improve อะไร merge request มาได้นะครับ
 <br>
 <br>

@@ -13,7 +13,7 @@ author: "end try"
 
 <br>
 
-เริ่มจากไป clone โปรเจคตามลิ้งนี้มาก่อนเลย -> [Source Code](http://raboninco.com/XBs1) แล้วนำโปรเจคไปวางไว้ที่ `$GOPATH/src/github.com/prongbang/govsktor` จากนั้นให้ทำการรันตัว `golang-api` โดยใช้คำสัง
+เริ่มจากไป clone โปรเจคตามลิ้งนี้มาก่อนเลย -> [Source Code](https://raboninco.com/XBs1) แล้วนำโปรเจคไปวางไว้ที่ `$GOPATH/src/github.com/prongbang/govsktor` จากนั้นให้ทำการรันตัว `golang-api` โดยใช้คำสัง
 
 {% highlight bash %}
 $ docker-compose up -d --build

@@ -387,6 +387,6 @@ export default connect(mapStateToProps, mapDispatchToProps)(App);
 <br>
 <br>
 
-** สามารถดูโค้ดแบบเต็ม ๆ ไดที่นี่เลยครับ[จิ้มเลย](http://raboninco.com/XBQK)
+** สามารถดูโค้ดแบบเต็ม ๆ ไดที่นี่เลยครับ[จิ้มเลย](https://raboninco.com/XBQK)
 
 <br>

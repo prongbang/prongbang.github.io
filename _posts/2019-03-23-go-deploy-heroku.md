@@ -240,7 +240,7 @@ remote:        Released v3
 remote:        https://gest-to.herokuapp.com/ deployed to Heroku
 {% endhighlight %}
 
-และลองเข้าไปที่ [https://gest-to.herokuapp.com/](https://gest-to.herokuapp.com/) เราก็จะเห็นว่า api ของเราสามารถทำงานได้ตามที่เราต้องการเรียบร้อยแล้ว และนี่คือ [Source Code](http://raboninco.com/XBqc)
+และลองเข้าไปที่ [https://gest-to.herokuapp.com/](https://gest-to.herokuapp.com/) เราก็จะเห็นว่า api ของเราสามารถทำงานได้ตามที่เราต้องการเรียบร้อยแล้ว และนี่คือ [Source Code](https://raboninco.com/XBqc)
  ของโปรเจ็คนี้
 <br>
 <br>
