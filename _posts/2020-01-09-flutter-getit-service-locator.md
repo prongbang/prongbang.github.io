@@ -234,7 +234,7 @@ class _PostPageState extends State<PostPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("เดฟไปวันๆ"),
+        title: Text("devไปวันๆ"),
       ),
       body: SafeArea(
         child: Material(

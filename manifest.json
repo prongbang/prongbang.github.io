@@ -1,6 +1,6 @@
 {
-  "short_name": "เดฟไปวันๆ",
-  "name": "เดฟไปวันๆ",
+  "short_name": "devไปวันๆ",
+  "name": "devไปวันๆ",
   "icons": [
       {
           "src": "https://prongbang.github.io/assets/launcher/icons-48.png",
@@ -32,5 +32,5 @@
   "display": "minimal-ui",
   "orientation": "portrait",
   "scope": "/",
-  "description": "เดฟไปวันๆ - บล็อคของคนพูดน้อย"
+  "description": "devไปวันๆ - บล็อคของคนพูดน้อย"
 }

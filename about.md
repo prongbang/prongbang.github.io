@@ -8,8 +8,6 @@ is_site_nav_category: true
 site_nav_category_order: 300
 ---
 
-<img src="/assets/end-try.png" alt="เดฟไปวันๆ"/>
-
 #### Education
 - 2011 - 2014 Bachelor's Degree, Bachelor of Technology in Information Technology King Mongkut's University of Technology North Bangkok 
 
@@ -18,5 +16,5 @@ site_nav_category_order: 300
 - Android Developer (Touch Technologies Co. Ltd.) February 2017 - June 2018
 - Android Developer [Contract] (Brink's Global Technology Limited.) June 2018 - December 2018
 - React / React Native Developer, Golang Developer, Android Developer, Flutter Developer, Web Developer (Freelance) Janury 2017 - Present
-- Android Developer (Ayudhya Capital Services Co., Ltd.) December 2018 - Present
+- Android Developer / Flutter Developer (Ayudhya Capital Services Co., Ltd.) December 2018 - Present
 - Co-Founder (Innotech Development Co., Ltd.) July 2020 - Present
