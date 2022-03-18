@@ -193,7 +193,7 @@ routes:
 - ติดตั้ง golang library โดยใช้คำสั่งตามนี้
 
 {% highlight shell %}
-$ go get -u github.com/prongbang/wiremock
+$ go get -u github.com/prongbang/wiremock@v1.3.1
 {% endhighlight %}
 
 จากนั้นเข้าไปใน project แล้วใช้คำสั่ง
@@ -234,7 +234,7 @@ project
 version: '3.7'
 services:
   app_wiremock:
-    image: prongbang/wiremock
+    image: prongbang/wiremock:1.3.1
     ports:
       - "8000:8000"
     volumes:
