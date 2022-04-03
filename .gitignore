@@ -5,3 +5,4 @@ vendor
 .bundle
 README.md
 .DS_Store
+.idea

@@ -33,20 +33,20 @@ generate_from: https://www.bennadel.com/coldfusion/privacy-policy-generator.htm
 <ol type="a">
 	<li>
 		Permission is granted to temporarily download one copy of the materials 
-		(information or software) on Endtry Studio's web site for personal, 
+		(information or software) on Wachasit Studio's web site for personal, 
 		non-commercial transitory viewing only. This is the grant of a license, 
 		not a transfer of title, and under this license you may not:
 		
 		<ol type="i">
 			<li>modify or copy the materials;</li>
 			<li>use the materials for any commercial purpose, or for any public display (commercial or non-commercial);</li>
-			<li>attempt to decompile or reverse engineer any software contained on Endtry Studio's web site;</li>
+			<li>attempt to decompile or reverse engineer any software contained on Wachasit Studio's web site;</li>
 			<li>remove any copyright or other proprietary notations from the materials; or</li>
 			<li>transfer the materials to another person or "mirror" the materials on any other server.</li>
 		</ol>
 	</li>
 	<li>
-		This license shall automatically terminate if you violate any of these restrictions and may be terminated by Endtry Studio at any time. Upon terminating your viewing of these materials or upon the termination of this license, you must destroy any downloaded materials in your possession whether in electronic or printed format.
+		This license shall automatically terminate if you violate any of these restrictions and may be terminated by Wachasit Studio at any time. Upon terminating your viewing of these materials or upon the termination of this license, you must destroy any downloaded materials in your possession whether in electronic or printed format.
 	</li>
 </ol>
 
@@ -56,7 +56,7 @@ generate_from: https://www.bennadel.com/coldfusion/privacy-policy-generator.htm
 
 <ol type="a">
 	<li>
-		The materials on Endtry Studio's web site are provided "as is". Endtry Studio makes no warranties, expressed or implied, and hereby disclaims and negates all other warranties, including without limitation, implied warranties or conditions of merchantability, fitness for a particular purpose, or non-infringement of intellectual property or other violation of rights. Further, Endtry Studio does not warrant or make any representations concerning the accuracy, likely results, or reliability of the use of the materials on its Internet web site or otherwise relating to such materials or on any sites linked to this site.
+		The materials on Wachasit Studio's web site are provided "as is". Wachasit Studio makes no warranties, expressed or implied, and hereby disclaims and negates all other warranties, including without limitation, implied warranties or conditions of merchantability, fitness for a particular purpose, or non-infringement of intellectual property or other violation of rights. Further, Wachasit Studio does not warrant or make any representations concerning the accuracy, likely results, or reliability of the use of the materials on its Internet web site or otherwise relating to such materials or on any sites linked to this site.
 	</li>
 </ol>
 
@@ -65,7 +65,7 @@ generate_from: https://www.bennadel.com/coldfusion/privacy-policy-generator.htm
 </h3>
 
 <p>
-	In no event shall Endtry Studio or its suppliers be liable for any damages (including, without limitation, damages for loss of data or profit, or due to business interruption,) arising out of the use or inability to use the materials on Endtry Studio's Internet site, even if Endtry Studio or a Endtry Studio authorized representative has been notified orally or in writing of the possibility of such damage. Because some jurisdictions do not allow limitations on implied warranties, or limitations of liability for consequential or incidental damages, these limitations may not apply to you.
+	In no event shall Wachasit Studio or its suppliers be liable for any damages (including, without limitation, damages for loss of data or profit, or due to business interruption,) arising out of the use or inability to use the materials on Wachasit Studio's Internet site, even if Wachasit Studio or a Wachasit Studio authorized representative has been notified orally or in writing of the possibility of such damage. Because some jurisdictions do not allow limitations on implied warranties, or limitations of liability for consequential or incidental damages, these limitations may not apply to you.
 </p>
 			
 <h3>
@@ -73,7 +73,7 @@ generate_from: https://www.bennadel.com/coldfusion/privacy-policy-generator.htm
 </h3>
 
 <p>
-	The materials appearing on Endtry Studio's web site could include technical, typographical, or photographic errors. Endtry Studio does not warrant that any of the materials on its web site are accurate, complete, or current. Endtry Studio may make changes to the materials contained on its web site at any time without notice. Endtry Studio does not, however, make any commitment to update the materials.
+	The materials appearing on Wachasit Studio's web site could include technical, typographical, or photographic errors. Wachasit Studio does not warrant that any of the materials on its web site are accurate, complete, or current. Wachasit Studio may make changes to the materials contained on its web site at any time without notice. Wachasit Studio does not, however, make any commitment to update the materials.
 </p>
 
 <h3>
@@ -81,7 +81,7 @@ generate_from: https://www.bennadel.com/coldfusion/privacy-policy-generator.htm
 </h3>
 
 <p>
-	Endtry Studio has not reviewed all of the sites linked to its Internet web site and is not responsible for the contents of any such linked site. The inclusion of any link does not imply endorsement by Endtry Studio of the site. Use of any such linked web site is at the user's own risk.
+	Wachasit Studio has not reviewed all of the sites linked to its Internet web site and is not responsible for the contents of any such linked site. The inclusion of any link does not imply endorsement by Wachasit Studio of the site. Use of any such linked web site is at the user's own risk.
 </p>
 
 <h3>
@@ -89,7 +89,7 @@ generate_from: https://www.bennadel.com/coldfusion/privacy-policy-generator.htm
 </h3>
 
 <p>
-	Endtry Studio may revise these terms of use for its web site at any time without notice. By using this web site you are agreeing to be bound by the then current version of these Terms and Conditions of Use.
+	Wachasit Studio may revise these terms of use for its web site at any time without notice. By using this web site you are agreeing to be bound by the then current version of these Terms and Conditions of Use.
 </p>
 
 <h3>
@@ -97,7 +97,7 @@ generate_from: https://www.bennadel.com/coldfusion/privacy-policy-generator.htm
 </h3>
 
 <p>
-	Any claim relating to Endtry Studio's web site shall be governed by the laws of the State of Thailand without regard to its conflict of law provisions.
+	Any claim relating to Wachasit Studio's web site shall be governed by the laws of the State of Thailand without regard to its conflict of law provisions.
 </p>
 
 <p>

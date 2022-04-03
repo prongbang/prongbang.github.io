@@ -68,7 +68,7 @@ class PostLocalDataSource implements PostDataSource {
         name: "[Golang] มาใช้ Wire เพื่อช่วยทำ Dependency Injection กันเถอะ",
         detail: "บล็อคนี้ไม่อยากพิมพ์เยอะ เพราะวิธีใช้มันน้อย และง่ายมาก ๆ",
         image: "https://prongbang.github.io/assets/images/golang/9.png",
-        date: "By Endtry Studio, Nov 9, 2019",
+        date: "By Wachasit Studio, Nov 9, 2019",
       ),
       ...
     ];
