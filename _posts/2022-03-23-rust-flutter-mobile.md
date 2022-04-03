@@ -450,3 +450,6 @@ I/flutter (30468): - Response string: Hello John Smith
 <br>
 <br>
 เพียงเท่านี้ก็สามารถเรียกใช้งาน library ที่เขียนด้วย Rust ได้แล้วครับ หากผิดพลาดตรงไหนต้องขออภัย ด้วยครับ ขอบคุณครับ
+<br>
+หากใครมองหา Source Code อยู่มาจิ้มเข้าไปดูได้ครับตามลิ้งนี้ [https://github.com/prongbang/flutter_ffi_rust](https://github.com/prongbang/flutter_ffi_rust)
+<br>
