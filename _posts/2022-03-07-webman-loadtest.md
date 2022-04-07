@@ -158,7 +158,18 @@ hello webman
 - RAM 16 GB 2400 MHz DDR4
 {% endhighlight %}
 
+สเปคของ docker ที่ใช้รัน สเปคตามนี้
+
+{% highlight shell %}
+- CPUs: 4
+- Memory: 2.00 GB
+- Swap: 1 GB
+- Disk image size: 59.6 GB (7.2 GB used)
+{% endhighlight %}
+
 ### เริ่ม!
+
+<br>
 
 ### ดู stats ก่อนโหลดเทส
 
