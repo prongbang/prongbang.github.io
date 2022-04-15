@@ -3,8 +3,8 @@ layout: post
 title: "[Rust] สร้าง Flutter Plugin และเรียกใช้ Library ที่เขียนด้วยภาษา Rust มาใช้งานบน Android และ iOS"
 short_description: "ไม่อยากเขียน Swift/Kotlin, Gradle, CMake แต่อยากเขียน Rust กับ Dart ก็เลยมาลงเอยที่ท่านี้"
 date: 2022-03-23 11:13:44 +0700
-categories: rust
-tags: [rust]
+categories: [rust, flutter]
+tags: [rust, flutter]
 cover_image: /assets/images/rust/1.png
 author: "end try"
 ---
