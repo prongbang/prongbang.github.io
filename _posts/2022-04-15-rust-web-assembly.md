@@ -179,4 +179,4 @@ open http://localhost:8000
 entropy("123456") = 2.5849626064300537
 {% endhighlight %}
 
-เพียงเท่านี้เราก็สามารถใช้งาน WebAssmbly บนเว็บเราได้แล้ว หากผิดพลาดตรงไหนต้องขออภัยด้วยนะครับ
+เพียงเท่านี้เราก็สามารถใช้งาน WebAssmbly บนเว็บเราได้แล้ว หากผิดพลาดตรงไหนต้องขออภัยด้วยนะครับ ตัวอย่าง Source Code มาดูที่นี่ได้ครับ [https://github.com/prongbang/entropy-wasm](https://github.com/prongbang/entropy-wasm)
