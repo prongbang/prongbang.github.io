@@ -176,9 +176,6 @@ sudo vim /etc/hosts
 go run main.go
 {% endhighlight %}
 
-รันเสร็จจะได้ประมาณนี้
-
-<br>
 
 ### ลองเทสผ่าน curl หรือเปิด Chrome แล้วพิมพ์ชื่อ domain เอาก็ได้
 
