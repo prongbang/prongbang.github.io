@@ -6,3 +6,4 @@ vendor
 README.md
 .DS_Store
 .idea
+.vscode
