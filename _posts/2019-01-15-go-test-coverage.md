@@ -6,7 +6,7 @@ date:   2019-01-15 24:09:00 +0700
 categories: golang
 tags: [golang]
 cover_image: /assets/images/golang/6.png
-author: "end try"
+author: "Devไปวันๆ"
 ---
 
 ### เริ่มกันเลยดีกว่า

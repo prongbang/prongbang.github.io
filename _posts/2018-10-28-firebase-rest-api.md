@@ -6,7 +6,7 @@ date:   2018-10-28 15:00:00 +0700
 categories: firebase
 tags: [firebase]
 cover_image: /assets/images/firebase/1.png
-author: "end try"
+author: "Devไปวันๆ"
 ---
 
 ### Create an account

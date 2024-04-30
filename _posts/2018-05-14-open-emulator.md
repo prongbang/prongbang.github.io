@@ -6,7 +6,7 @@ date:   2018-05-14 23:04:22 +0700
 categories: android
 tags: [android]
 cover_image: /assets/images/android/2.png
-author: "end try"
+author: "Devไปวันๆ"
 ---
 
 ### ก่อนอื่นให้เปิด Terminal เข้าไปตาม directory นี้

@@ -6,7 +6,7 @@ date:   2019-03-30 20:53:00 +0700
 categories: [golang, kotlin]
 tags: [golang, kotlin]
 cover_image: /assets/images/golang/8.png
-author: "end try"
+author: "Devไปวันๆ"
 ---
 
 ### เริ่มกันเลยดีกว่า

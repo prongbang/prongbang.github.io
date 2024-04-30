@@ -6,7 +6,7 @@ date: 2018-06-14 09:46:00 +0700
 categories: react
 tags: [react]
 cover_image: /assets/images/react/5.png
-author: "end try"
+author: "Devไปวันๆ"
 ---
 
 ### สิ่งที่เราต้องการคือ

@@ -6,7 +6,7 @@ date:   2020-05-11 18:37:00 +0700
 categories: [flutter]
 tags: [flutter]
 cover_image: /assets/images/flutter/06.png
-author: "end try"
+author: "Devไปวันๆ"
 ---
 
 ### เริ่มจากเพิ่ม dependencies ที่เราต้องใช้ก่อนตามนี้

@@ -6,7 +6,7 @@ date:   2020-04-05 20:23:00 +0700
 categories: [golang]
 tags: [golang]
 cover_image: /assets/images/golang/10.png
-author: "end try"
+author: "Devไปวันๆ"
 ---
 
 ### Wiremock มีให้ใช้งาน 2 แบบ คือ Docker และ Golang library

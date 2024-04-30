@@ -6,7 +6,7 @@ date: 2024-04-21 17:09:15 +0700
 categories: [flutter,golang]
 tags: [flutter,golang]
 cover_image: /assets/images/flutter/08.png
-author: "end try"
+author: "Devไปวันๆ"
 ---
 
 โดยกระบวนการจะเริ่มจาก

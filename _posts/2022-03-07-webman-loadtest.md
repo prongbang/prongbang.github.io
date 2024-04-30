@@ -6,7 +6,7 @@ date: 2022-03-07 09:40:44 +0700
 categories: php
 tags: [php]
 cover_image: /assets/images/php/1.png
-author: "end try"
+author: "Devไปวันๆ"
 ---
 
 ## ก่อนที่จะใช้งาน [Webman](https://www.workerman.net/doc/webman/install.html) มาเตรียมความพร้อมกันก่อน

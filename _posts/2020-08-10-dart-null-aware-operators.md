@@ -6,7 +6,7 @@ date:   2020-08-10 18:37:00 +0700
 categories: [flutter]
 tags: [flutter]
 cover_image: /assets/images/flutter/07.png
-author: "end try"
+author: "Devไปวันๆ"
 ---
 
 ### Null-Aware Operators ท่าที่ผมใช้บ่อย ๆ

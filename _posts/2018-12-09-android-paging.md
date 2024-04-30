@@ -6,7 +6,7 @@ date:   2018-12-09 12:28:00 +0700
 categories: android
 tags: [android]
 cover_image: /assets/images/android/14.png
-author: "end try"
+author: "Devไปวันๆ"
 ---
 
 ### เริ่มกันเลยดีกว่า

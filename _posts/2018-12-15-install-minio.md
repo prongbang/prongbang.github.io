@@ -6,7 +6,7 @@ date: 2018-12-16 12:32:19 +0700
 categories: [docker, minio]
 tags: [docker, minio]
 cover_image: /assets/images/docker/2.png
-author: "end try"
+author: "Devไปวันๆ"
 ---
 
 ### Minio คืออะไร

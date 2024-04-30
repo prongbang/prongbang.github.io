@@ -6,7 +6,7 @@ date:   2018-02-28 20:11:37 +0700
 categories: android
 tags: [android]
 cover_image: /assets/images/room-embedded.png
-author: "end try"
+author: "Devไปวันๆ"
 ---
 #### เริ่มจากความต้องการที่จะเอาก้อน Object มายัดลง room database โดยที่ไม่ต้องมาทำ relation เหมือนกับที่ realm ทำได้
 จากที่ลอง research อยู่สักพักก็ดันไปเจอเจ้าตัว [Embedded](https://developer.android.com/reference/android/arch/persistence/room/Embedded.html) เข้าให้ แต่ทว่ามันดัน Embedded ได้แค่ Class ที่ไม่ใช้ List น่ะสิ แต่ดันไปเจอแสงสว่างปลายยอดหญ้า คือเจ้า [TypeConverter](https://developer.android.com/reference/android/arch/persistence/room/TypeConverter.html) เข้าอย่างจังซึ่งมันจะมาช่วยในการ Convert Type ให้มันสามารถ insert object ที่เป็น List ลง database ได้นั่นเอง

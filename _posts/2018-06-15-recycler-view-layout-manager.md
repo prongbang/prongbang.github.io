@@ -6,7 +6,7 @@ date:   2018-06-15 20:30:01 +0700
 categories: android
 tags: [android]
 cover_image: /assets/images/android/9.png
-author: "end try"
+author: "Devไปวันๆ"
 ---
 
 ### ก่อนจะเริ่มทำเราควรมารู้จักกับ Layout Manager ใน Recycler View กันก่อน ซึ่งสามารถเข้าไปอ่านได้[ที่นี่เลย](http://www.akexorcist.com/2015/10/the-introduction-layout-manager-in-recycler-view.html)ซึ่งพี่เค้าเขียนไว้ดีมาก ๆ (ไอดอล)

@@ -6,7 +6,7 @@ date: 2018-06-17 20:19:44 +0700
 categories: react
 tags: [react]
 cover_image: /assets/images/react/6.png
-author: "end try"
+author: "Devไปวันๆ"
 ---
 
 ### ก่อนจะเริ่มเรามาดูความหมายของ Redux กันก่อน

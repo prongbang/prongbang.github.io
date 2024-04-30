@@ -6,7 +6,7 @@ date:   2018-12-15 19:14:19 +0700
 categories: [docker, portainer]
 tags: [docker, portainer]
 cover_image: /assets/images/docker/1.png
-author: "end try"
+author: "Devไปวันๆ"
 ---
 
 ### เริ่มกันเลยดีกว่า

@@ -6,7 +6,7 @@ date:   2019-11-10 01:15:00 +0700
 categories: [golang]
 tags: [golang]
 cover_image: /assets/images/golang/9.png
-author: "end try"
+author: "Devไปวันๆ"
 ---
 
 ### เริ่มจากสร้างโปรเจค และวางโครงตามนี้ หรือจะทำแบบที่ตัวเองถนัดก็ได้

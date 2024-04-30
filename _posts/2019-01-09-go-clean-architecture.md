@@ -6,7 +6,7 @@ date:   2019-01-09 21:26:00 +0700
 categories: golang
 tags: [golang]
 cover_image: /assets/images/golang/5.png
-author: "end try"
+author: "Devไปวันๆ"
 ---
 
 ### ก่อนอื่นมาดู Architecture ของ Clen ก่อนเลย ตามภาพด้านล่าง

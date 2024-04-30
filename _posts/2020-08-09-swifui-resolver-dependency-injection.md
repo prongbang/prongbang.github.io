@@ -6,7 +6,7 @@ date:   2020-08-09 17:28:09 +0700
 categories: [ios]
 tags: [ios]
 cover_image: /assets/images/ios/01.png
-author: "end try"
+author: "Devไปวันๆ"
 ---
 
 ### เริ่มจากเพิ่ม Resolver ใน `Podfile` ก่อนตามนี้

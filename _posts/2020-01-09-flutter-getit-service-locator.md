@@ -6,7 +6,7 @@ date:   2020-01-09 01:15:00 +0700
 categories: [flutter]
 tags: [flutter]
 cover_image: /assets/images/flutter/04.png
-author: "end try"
+author: "Devไปวันๆ"
 ---
 
 ### เริ่มจากสร้างโปรเจค และวางโครงตามนี้ หรือจะทำแบบที่ตัวเองถนัดก็ได้

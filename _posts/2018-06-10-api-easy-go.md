@@ -6,7 +6,7 @@ date:   2018-06-10 21:02:01 +0700
 categories: golang
 tags: [golang]
 cover_image: /assets/images/golang/2.png
-author: "end try"
+author: "Devไปวันๆ"
 ---
 
 ### เริ่มจากติดตั้ง Library

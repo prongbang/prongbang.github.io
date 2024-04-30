@@ -6,7 +6,7 @@ date: 2022-04-15 15:15:15 +0700
 categories: [rust, javascript, wasm]
 tags: [rust, javascript, wasm]
 cover_image: /assets/images/rust/4.png
-author: "end try"
+author: "Devไปวันๆ"
 ---
 
 WebAssembly คืออะไรนั้นลองเข้าไปดูได้ที่ [https://webassembly.org/](https://webassembly.org/) จะขอข้ามทฤษฎีไปลงมือเลยนะครับ ซึ่งในโพสนี้จะลองสร้างฟังก์ชั้น `Entropy` มาใช้วัดความวุ่นวายของระบบ หรือ ความไม่เป็นระบบ แบบง่ายๆกันครับ

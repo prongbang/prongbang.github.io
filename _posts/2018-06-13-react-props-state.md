@@ -6,7 +6,7 @@ date: 2018-06-13 21:45:20 +0700
 categories: react
 tags: [react]
 cover_image: /assets/images/react/4.png
-author: "end try"
+author: "Devไปวันๆ"
 ---
 
 ### Props คืออะไร ?

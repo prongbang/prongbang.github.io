@@ -6,7 +6,7 @@ date: 2018-05-28 17:38:21 +0700
 categories: android
 tags: [android]
 cover_image: /assets/images/android/7.png
-author: "end try"
+author: "Devไปวันๆ"
 ---
 
 ### มีอยู่หลายวิธีที่จะทำเมนูให้อยู่ข้างล่าง คือ

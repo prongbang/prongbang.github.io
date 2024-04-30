@@ -6,7 +6,7 @@ date:   2018-07-15 18:35:01 +0700
 categories: android
 tags: [android]
 cover_image: /assets/images/android/10.png
-author: "end try"
+author: "Devไปวันๆ"
 ---
 
 ### เริ่มจากเปิดไฟล์ Layout ของเราจากนั้นให้เลือกที่แท็บ `Design` จากนั้นให้คลิกที่ตัว `TextView` ของเราแล้วเลือกตามภาพ

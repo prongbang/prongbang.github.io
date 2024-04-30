@@ -6,7 +6,7 @@ date:   2018-05-22 21:51:43 +0700
 categories: android
 tags: [android]
 cover_image: /assets/images/android/5.png
-author: "end try"
+author: "Devไปวันๆ"
 ---
 
 ### พื้นฐานที่เราต้องรู้

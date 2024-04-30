@@ -6,7 +6,7 @@ date: 2018-06-13 21:28:00 +0700
 categories: react
 tags: [react]
 cover_image: /assets/images/react/3.png
-author: "end try"
+author: "Devไปวันๆ"
 ---
 
 ### Component Lifecycle ของ React มีอยู่หลายท่าเหมือนกัน ดูนี่ ๆ

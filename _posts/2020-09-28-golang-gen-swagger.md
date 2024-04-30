@@ -6,7 +6,7 @@ date:   2020-09-28 16:56:00 +0700
 categories: [golang]
 tags: [golang]
 cover_image: /assets/images/golang/11.png
-author: "end try"
+author: "Devไปวันๆ"
 ---
 
 ### Download swag

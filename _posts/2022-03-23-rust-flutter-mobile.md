@@ -6,7 +6,7 @@ date: 2022-03-23 11:13:44 +0700
 categories: [rust, flutter]
 tags: [rust, flutter]
 cover_image: /assets/images/rust/1.png
-author: "end try"
+author: "Devไปวันๆ"
 ---
 
 ### ทำไมเราถึงใช้วิธีนี้ก็เพราะว่า เราไม่ต้องทำสิ่งเหล่านี้นั่นเอง

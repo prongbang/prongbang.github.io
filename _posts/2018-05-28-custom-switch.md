@@ -6,7 +6,7 @@ date:   2018-05-28 16:28:01 +0700
 categories: android
 tags: [android]
 cover_image: /assets/images/android/6.png
-author: "end try"
+author: "Devไปวันๆ"
 ---
 
 ### คงไม่ต้องอธิบายอะไรให้มากความ บล็อคนี้เน้นแต่เนื้อ ๆ

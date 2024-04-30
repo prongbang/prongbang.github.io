@@ -6,7 +6,7 @@ date:   2019-03-23 19:27:00 +0700
 categories: [golang, heroku]
 tags: [golang, heroku]
 cover_image: /assets/images/golang/7.png
-author: "end try"
+author: "Devไปวันๆ"
 ---
 
 ### เริ่มกันเลยดีกว่า

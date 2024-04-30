@@ -6,7 +6,7 @@ date: 2020-12-18 09:40:44 +0700
 categories: react
 tags: [react]
 cover_image: /assets/images/react/7.png
-author: "end try"
+author: "Devไปวันๆ"
 ---
 
 ### การใช้งาน Hook จะต้องเรียกใช้ใน function components ประมาณนี้

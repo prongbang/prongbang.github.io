@@ -6,7 +6,7 @@ date:   2020-05-06 19:00:00 +0700
 categories: [android]
 tags: [android]
 cover_image: /assets/images/android/16.png
-author: "end try"
+author: "Devไปวันๆ"
 ---
 
 ### เริ่มจากเพิ่ม dependencies ที่เราต้องใช้ก่อนตามนี้

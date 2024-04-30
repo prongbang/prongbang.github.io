@@ -6,7 +6,7 @@ date:   2018-04-14 21:32:02 +0700
 categories: android
 tags: [android]
 cover_image: /assets/images/android/1.png
-author: "end try"
+author: "Devไปวันๆ"
 ---
 #### จากเดิมจะอยู่ในไฟล์ `build.gradle` แบบนี้
 <br><br>

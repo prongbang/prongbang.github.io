@@ -6,7 +6,7 @@ date:   2018-12-28 17:02:19 +0700
 categories: [android, grpc]
 tags: [android, grpc]
 cover_image: /assets/images/android/15.png
-author: "end try"
+author: "Devไปวันๆ"
 ---
 
 ### ไม่ต้องท้าวความอะไรให้มากมายเราเริ่มกันเลยดีกว่า

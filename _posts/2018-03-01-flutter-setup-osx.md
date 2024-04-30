@@ -6,7 +6,7 @@ date:   2018-03-01 18:45:42 +0700
 categories: flutter
 tags: [flutter]
 cover_image: /assets/images/setup-flutter.png
-author: "end try"
+author: "Devไปวันๆ"
 ---
 #### สิ่งที่เราจะต้องมี หรืออ่านวิธีติดตั้งเพิ่มเติมได้ที่ [https://flutter.io/setup-macos](https://flutter.io/setup-macos/)
 - OS 

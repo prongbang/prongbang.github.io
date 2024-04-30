@@ -6,7 +6,7 @@ date:   2018-08-25 16:32:34 +0700
 categories: android
 tags: [android]
 cover_image: /assets/images/android/11.png
-author: "end try"
+author: "Devไปวันๆ"
 ---
 
 ### สิ่งที่ควรรู้คร่าว ๆ

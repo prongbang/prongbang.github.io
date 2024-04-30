@@ -6,7 +6,7 @@ date:   2018-07-24 23:03:34 +0700
 categories: flutter
 tags: [flutter]
 cover_image: /assets/images/flutter/03.png
-author: "end try"
+author: "Devไปวันๆ"
 ---
 
 #### ที่เลือกใช้ MVP ก้เพราะว่าอยากให้เขียนเทสได้ง่าย ๆ และให้คนที่เคยเขียน MVP กับ Android อยู่แล้วสามารถมาเขียน Flutter ได้ง่ายขึ้น (ไม่อยากพิมพ์เยอะเริ่มกันเลยดีกว่า)<br><br>

@@ -6,7 +6,7 @@ date:   2018-07-28 23:44:00 +0700
 categories: kotlin
 tags: [kotlin]
 cover_image: /assets/images/kotlin/01.png
-author: "end try"
+author: "Devไปวันๆ"
 ---
 
 ### โพสนี้จะไม่พูดอะไรมาก มาดูกันเลย ๆ

@@ -6,7 +6,7 @@ date: 2022-04-17 21:36:15 +0700
 categories: [golang]
 tags: [golang]
 cover_image: /assets/images/golang/12.png
-author: "end try"
+author: "Devไปวันๆ"
 ---
 
 ในโพสนี้จะสอนการใช้งาน mkcert บน macOS เป็นหลักนะครับ สำหรับใครที่หลงเข้ามาใช้ OS อื่นอยู่เข้ามาดูที่นี่ได้ครับ [https://github.com/FiloSottile/mkcert](https://github.com/FiloSottile/mkcert)

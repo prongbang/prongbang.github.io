@@ -6,7 +6,7 @@ date: 2018-06-13 19:58:00 +0700
 categories: react
 tags: [react]
 cover_image: /assets/images/react/2.png
-author: "end try"
+author: "Devไปวันๆ"
 ---
 
 ### React คือ JavaScript Library ที่ไว้จัดการหน้า View จะมีอยู่ 3 Concept คือ

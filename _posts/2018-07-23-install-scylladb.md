@@ -6,7 +6,7 @@ date:   2018-07-23 21:13:01 +0700
 categories: database
 tags: [database]
 cover_image: /assets/images/database/1.png
-author: "end try"
+author: "Devไปวันๆ"
 ---
 
 ### จุดเด่นของ Scylla ที่เป็น Real-Time Big Data Database ที่สามารถ Scale-up ได้ง่าย และเป็น Open Source สามารถติดตังได้หลายช่องทาง ดังนี้

@@ -6,7 +6,7 @@ date:   2018-10-20 15:40:00 +0700
 categories: golang
 tags: [golang]
 cover_image: /assets/images/golang/4.png
-author: "end try"
+author: "Devไปวันๆ"
 ---
 
 ### ก่อนอื่นต้องลง Go v1.11 ก่อน

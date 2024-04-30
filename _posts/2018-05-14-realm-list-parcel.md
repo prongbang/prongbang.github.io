@@ -6,7 +6,7 @@ date:   2018-05-14 23:20:12 +0700
 categories: android
 tags: [android]
 cover_image: /assets/images/android/3.png
-author: "end try"
+author: "Devไปวันๆ"
 ---
 
 ### 1. เริ่มจากเพื่มโค้ดด้านล่างนี้ใน `Person(Parcel in)` Constructer

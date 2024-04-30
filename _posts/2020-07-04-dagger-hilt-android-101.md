@@ -6,7 +6,7 @@ date:   2020-07-04 22:43:09 +0700
 categories: [android]
 tags: [android]
 cover_image: /assets/images/android/17.png
-author: "end try"
+author: "Devไปวันๆ"
 ---
 
 ### เริ่มจากเพิ่ม dependencies ของ hilt-dagger ก่อนตามนี้

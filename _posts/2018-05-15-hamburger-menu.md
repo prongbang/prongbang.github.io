@@ -6,7 +6,7 @@ date:   2018-05-15 22:04:42 +0700
 categories: android
 tags: [android]
 cover_image: /assets/images/android/4.png
-author: "end try"
+author: "Devไปวันๆ"
 ---
 
 ### เริ่มจากดู Design แล้วมาวิเคราะห์ว่าเราควรจัด Layout กันยังไง (อ้างอิงจากภาพด้านบน)

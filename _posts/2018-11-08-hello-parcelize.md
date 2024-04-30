@@ -6,7 +6,7 @@ date:   2018-11-18 15:53:00 +0700
 categories: android
 tags: [android]
 cover_image: /assets/images/android/13.png
-author: "end try"
+author: "Devไปวันๆ"
 ---
 
 ### สำหรับใครไม่รู้ว่าตัว @Parcelize เข้ามาช่วยลด Boilerplate โค้ดยังไงให้มาดูตัวอย่างนี้

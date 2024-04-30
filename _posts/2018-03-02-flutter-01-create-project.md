@@ -6,7 +6,7 @@ date:   2018-03-02 12:34:42 +0700
 categories: flutter
 tags: [flutter]
 cover_image: /assets/images/flutter/01-0-create-project.png
-author: "end try"
+author: "Devไปวันๆ"
 ---
 #### ในที่นี้เราจะใช้โปรแกรม IntelliJ IDEA Community Edition ในการเขียนแอพพลิเคชั่น
 

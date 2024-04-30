@@ -6,7 +6,7 @@ date:   2018-08-05 11:44:00 +0700
 categories: [golang, grpc]
 tags: [golang, grpc]
 cover_image: /assets/images/golang/3.png
-author: "end try"
+author: "Devไปวันๆ"
 ---
 
 ### gRPC คืออะไร

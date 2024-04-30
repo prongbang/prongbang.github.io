@@ -6,7 +6,7 @@ date:   2018-03-03 11:32:02 +0700
 categories: flutter
 tags: [flutter]
 cover_image: /assets/images/flutter/02-0-button.png
-author: "end try"
+author: "Devไปวันๆ"
 ---
 #### จะมีอยู่ 2 theme ด้วยกันคือ Material (Android) กับ Cupertino (iOS)
 
