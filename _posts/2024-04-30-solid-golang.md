@@ -5,7 +5,7 @@ short_description: "S.O.L.I.D เป็นชุดหลักการใน�
 date: 2024-04-30 21:33:00 +0700
 categories: [golang]
 tags: [golang]
-cover_image: /assets/images/golang/12.png
+cover_image: /assets/images/golang/13.png
 author: "Devไปวันๆ"
 ---
 
@@ -316,7 +316,7 @@ func (s *UserService) RegisterUser(user User) error {
 
 <br>
 
-หากต้องการดูตัวอย่างการนำมาใช้งานสามารถเข้าไปดูได้ที่ 
+หากต้องการดูตัวอย่างการนำมาใช้งานสามารถเข้าไปดูได้ที่ [https://buymeacoffee.com/prongbang/applying-s-o-l-i-d-principles-golang](https://buymeacoffee.com/prongbang/applying-s-o-l-i-d-principles-golang)
 
 <br>
 
