@@ -64,7 +64,7 @@ func (u *EmailUpdater) UpdateEmail(e *Employee, email string) {
 
 ### 2. Open/Closed Principle (OCP) - หลักการเปิดกว้างสำหรับการขยายแต่ปิดสำหรับการแก้ไข
 
-- Modules, Object, Class ควรเปิดกว้างสำหรับการขยายฟังก์ชันการทำงาน แต่ปิดสำหรับการแก้ไขโค้ดภายใน
+- Modules, Function, Class ควรเปิดกว้างสำหรับการขยายฟังก์ชันการทำงาน แต่ปิดสำหรับการแก้ไขโค้ดภายใน
 
 ฝ่าฝืน: เนื่องจากสามารถแก้ไขได้ถ้าต้องการเพิ่ม Destination ใหม่เข้าไป
 
@@ -104,62 +104,67 @@ func (l *DatabaseLogger) Log(msg string) {
 
 ### 3. Liskov Substitution Principle (LSP) - หลักการแทนที่ได้ของ Liskov
 
-- Object ของ Class ลูกควรสามารถนำมาใช้แทน Object ของ Class แม่ได้โดยไม่ทำให้คุณสมบัติหรือฟังก์ชันการทำงานผิดเพี้ยนไป
+- Modules, Function ของคลาสลูกควรสามารถนำมาใช้แทน Modules, Function ของคลาสแม่ได้โดยไม่ทำให้คุณสมบัติหรือฟังก์ชันการทำงานผิดเพี้ยนไป
 
-ฝ่าฝืน: เนื่องจาก Penguin ไม่สามารถบินได้
+ฝ่าฝืน: เนื่องจาก Penguin ไม่สามารถบินได้เหมือนกับนก
 
 {% highlight go %}
-type Bird interface {
-  Fly()
-  Walk()
+type Bird struct{}
+
+func (b *Bird) Fly() {
+  fmt.Println(" > Flying bird is flying")
 }
 
-type Duck struct{}
-
-func (d *Duck) Fly() {
-  fmt.Println("Duck is flying")
+func (b *Bird) Walk() {
+  fmt.Println(" > Working bird is walking")
 }
 
-func (d *Duck) Walk() {
-  fmt.Println("Duck is walking")
+type Penguin struct{
+  Bird
 }
-
-type Penguin struct{}
 
 func (p *Penguin) Fly() {
   fmt.Println("Sadly, I can't fly")
-}
-
-func (p *Penguin) Walk() {
-  fmt.Println("Penguin is walking")
 }
 {% endhighlight %}
 
 สอดคล้อง:
 
 {% highlight go %}
-type FlyingBird interface {
+type Flyer interface {
   Fly()
 }
 
-type WalkingBird interface {
+type Walker interface {
   Walk()
 }
 
-type Duck struct{}
+type Bird struct{}
+
+func (b *Bird) Fly() {
+  fmt.Println(" > Flying bird is flying")
+}
+
+func (b *Bird) Walk() {
+  fmt.Println(" > Working bird is walking")
+}
+
+type Duck struct {
+  Bird
+}
 
 func (d *Duck) Fly() {
-  fmt.Println("Duck is flying")
+  d.Bird.Fly()
 }
 
 func (d *Duck) Walk() {
-  fmt.Println("Duck is walking")
+  fmt.Println(" > Working duck is walking")
 }
 
 type Penguin struct{}
 
 func (p *Penguin) Walk() {
-  fmt.Println("Penguin is walking")
+  fmt.Println(" > Working penguin is walking")
 }
 {% endhighlight %}
 
