@@ -19,15 +19,15 @@ author: "Devไปวันๆ"
 
 #### 1. First Login
 
-- 1. Flutter ส่งข้อมูล PIN ไปที่ Server 
-- 2. Server ทำการ Validate เมื่อ Validate ผ่าน ก็จะทำการ Generate PIN Token อาจจะใช้ JWT ก็ได้ แล้วส่งกลับไปให้ Flutter
-- 2. Flutter ทำการเข้ารหัส PIN Token ที่ได้รับ แล้วเก็บไว้ใน Flutter Secure Storage โดยทำการเข้ารหัสให้อีกชั้น
+1. Flutter ส่งข้อมูล PIN ไปที่ Server 
+2. Server ทำการ Validate เมื่อ Validate ผ่าน ก็จะทำการ Generate PIN Token อาจจะใช้ JWT ก็ได้ แล้วส่งกลับไปให้ Flutter
+3. Flutter ทำการเข้ารหัส PIN Token ที่ได้รับ แล้วเก็บไว้ใน Flutter Secure Storage โดยทำการเข้ารหัสให้อีกชั้น
 
 #### 2. Second Login
 
-- 1. Flutter ทำการถอดรหัส PIN Token ที่เก็บไว้ โดยใช้ Biometric
-- 2. Flutter ทำการส่ง PIN Token ที่ที่ Server
-- 3. Server ทำการ Validate PIN Token เมื่อ Validate ผ่าน ก็จะทำการ Generate Access Token และ PIN Token ใหม่กลับไปให้ Flutter
+1. Flutter ทำการถอดรหัส PIN Token ที่เก็บไว้ โดยใช้ Biometric
+2. Flutter ทำการส่ง PIN Token ที่ที่ Server
+3. Server ทำการ Validate PIN Token เมื่อ Validate ผ่าน ก็จะทำการ Generate Access Token และ PIN Token ใหม่กลับไปให้ Flutter
 
 ### Library สำหรับการทำ Cryptography + Biometric
 
