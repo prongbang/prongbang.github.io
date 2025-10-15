@@ -9,11 +9,12 @@ url: "https://prongbang.github.io"
 
 # Social links
 twitter_username: prongbang
-github_username:  prongbang
+github_username: prongbang
 
 include: [.well-known]
 
 # Build settings
+future: true
 markdown: kramdown
 theme: minima
 plugins:
